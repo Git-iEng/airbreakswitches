@@ -66,12 +66,15 @@ def _send_contact_email_async(subject: str, text_body: str, html_body: str | Non
     Thread(target=_send_email, args=(subject, text_body, html_body, recipients), daemon=True).start()
 
 
-# ---------- Views ----------
 def request_demo_view(request):
     if request.method != "POST":
         return redirect("/")
 
-    # Pull fields
+    # detect ajax/fetch
+
+    wants_json = request.headers.get("x-requested-with") == "XMLHttpRequest"
+     
+
     full_name = request.POST.get("full_name", "").strip()
     company   = request.POST.get("company", "").strip()
     email     = request.POST.get("email", "").strip()
@@ -80,7 +83,6 @@ def request_demo_view(request):
     address   = request.POST.get("address", "").strip()
     message   = request.POST.get("message", "").strip()
 
-    # Validate
     errors = {}
     if not NAME_RE.match(full_name):
         errors["full_name"] = "Please enter a valid full name (letters only)."
@@ -96,20 +98,21 @@ def request_demo_view(request):
         errors["country"] = "Select a country."
 
     if errors:
-        # Raise toasts on next page load
+        # JSON mode: return errors to JS
+        if wants_json:
+            return JsonResponse({"ok": False, "errors": errors}, status=400)
+
+        # normal mode: use messages + redirect back
         for msg in errors.values():
             messages.error(request, msg)
-        # Go back to the page that opened the modal (so your JS toast can show)
         return redirect(request.META.get("HTTP_REFERER", "/"))
 
-    # Split "IN|+91"
     country_code, dial = (country.split("|", 1) + [""])[:2]
 
-    # Build email
     ts = timezone.now().strftime("%Y-%m-%d %H:%M:%S %Z")
-    subject = "New inquiry air break switches"
+    subject = "New Lv-Electrical-Panel inquiry"
     text_body = (
-        "A new air break switches inquiry was submitted.\n\n"
+        "A new Lv-Electrical-Panel inquiry request was submitted.\n\n"
         f"Submitted: {ts}\n"
         f"IP: {request.META.get('REMOTE_ADDR','')}\n\n"
         f"Full name: {full_name}\n"
@@ -121,8 +124,9 @@ def request_demo_view(request):
         "Message:\n"
         f"{message or '(none)'}\n"
     )
+
     html_body = f"""
-        <h2 style="margin:0 0 8px">New inquiry air break switches</h2>
+        <h2 style="margin:0 0 8px">New air break switches Inquiry Request</h2>
         <p style="margin:0 0 12px;color:#334">Submitted {ts} from {request.META.get('REMOTE_ADDR','')}</p>
         <table cellpadding="6" cellspacing="0" style="border-collapse:collapse;background:#f9fbfc">
           <tr><td><b>Full name</b></td><td>{full_name}</td></tr>
@@ -136,10 +140,18 @@ def request_demo_view(request):
         <pre style="white-space:pre-wrap;font-family:system-ui,Segoe UI,Arial,sans-serif">{message or '(none)'}</pre>
     """
 
+    # send email (sync call but it returns quickly since you call the thread sender)
     _send_demo_email_async(subject, text_body, html_body)
 
-    # Success -> thanks page
-    return redirect(reverse("cmmsApp:contact_thanks"))
+    thanks_url = reverse("cmmsApp:contact_thanks")
+
+    # JSON mode: JS will redirect only when ok=true
+    if wants_json:
+        return JsonResponse({"ok": True, "redirect": thanks_url})
+
+    # normal mode
+    return redirect(thanks_url)
+
 
 
 def home(request):
