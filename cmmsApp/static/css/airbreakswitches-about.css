@@ -1,4 +1,4 @@
-.cmms-contact-form-section {
+.airbreakswitches-contact-form-section {
     position: relative;
     background-size: cover;
     background-position: center;
@@ -9,7 +9,7 @@
     text-align: center;
 }
 
-.cmms-contact-form-overlay {
+.airbreakswitches-contact-form-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -18,14 +18,14 @@
     background: rgba(0, 0, 0, 0.5);
 }
 
-.cmms-contact-form-container {
+.airbreakswitches-contact-form-container {
     position: relative;
     max-width: 700px;
     margin: auto;
     z-index: 2;
 }
 
-.cmms-contact-form-badge {
+.airbreakswitches-contact-form-badge {
     display: inline-block;
     padding: 6px 14px;
     border: 1px solid white;
@@ -34,7 +34,7 @@
     margin-bottom: 15px;
 }
 
-.cmms-contact-form-dot {
+.airbreakswitches-contact-form-dot {
     display: inline-block;
     width: 8px;
     height: 8px;
@@ -43,19 +43,19 @@
     margin-right: 6px;
 }
 
-.cmms-contact-form-title {
+.airbreakswitches-contact-form-title {
     font-size: 42px;
     margin-bottom: 40px;
 }
 
-.cmms-contact-form {
+.airbreakswitches-contact-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.cmms-contact-form-input,
-.cmms-contact-form-textarea {
+.airbreakswitches-contact-form-input,
+.airbreakswitches-contact-form-textarea {
     padding: 12px 15px;
     border-radius: 6px;
     border: none;
@@ -64,12 +64,12 @@
     width: 100%;
 }
 
-.cmms-contact-form-textarea {
+.airbreakswitches-contact-form-textarea {
     height: 120px;
     resize: none;
 }
 
-.cmms-contact-form-btn {
+.airbreakswitches-contact-form-btn {
     background: limegreen;
     color: white;
     padding: 12px 20px;
@@ -80,32 +80,32 @@
     transition: background 0.3s ease;
 }
 
-.cmms-contact-form-btn:hover {
+.airbreakswitches-contact-form-btn:hover {
     background: green;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
-    .cmms-contact-form-title {
+    .airbreakswitches-contact-form-title {
         font-size: 32px;
     }
 }
 
 /* Container */
-.cmms-contact-form-wrap {
+.airbreakswitches-contact-form-wrap {
     width: 100%;
     background: #ffffff;
     padding: 48px 20px 26px;
  
 }
 
-.cmms-contact-form-inner {
+.airbreakswitches-contact-form-inner {
     max-width: 1100px;
     margin: 0 auto;
 }
 
 /* Badge (new) */
-.cmms-contact-form-badge2 {
+.airbreakswitches-contact-form-badge2 {
     display: inline-flex;
     align-items: center;
     gap: 8px;
@@ -118,7 +118,7 @@
     /* background: #fff; */
 }
 
-.cmms-contact-form-dot2 {
+.airbreakswitches-contact-form-dot2 {
     width: 8px;
     height: 8px;
     border-radius: 50%;
@@ -127,7 +127,7 @@
 }
 
 /* Heading */
-.cmms-contact-form-heading2 {
+.airbreakswitches-contact-form-heading2 {
     font-size: clamp(28px, 4vw, 44px);
     line-height: 1.15;
     margin: 20px 0 28px;
@@ -135,7 +135,7 @@
 }
 
 /* Success */
-.cmms-contact-form-success2 {
+.airbreakswitches-contact-form-success2 {
     background: #ffffff;
     color: #065f46;
     border: 1px solid #a7f3d0;
@@ -145,23 +145,23 @@
 }
 
 /* Form layout */
-.cmms-contact-form-form2 {
+.airbreakswitches-contact-form-form2 {
     width: 100%;
 }
 
-.cmms-contact-form-grid2 {
+.airbreakswitches-contact-form-grid2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 22px;
 }
 
-.cmms-contact-form-field2 {
+.airbreakswitches-contact-form-field2 {
     display: flex;
     flex-direction: column;
     gap: 6px;
 }
 
-.cmms-contact-form-label2 {
+.airbreakswitches-contact-form-label2 {
     margin-top: 2px;
     padding-top: 4px;
     font-size: 13px;
@@ -170,8 +170,8 @@
 }
 
 /* Inputs */
-.cmms-contact-form-input2,
-.cmms-contact-form-textarea2 {
+.airbreakswitches-contact-form-input2,
+.airbreakswitches-contact-form-textarea2 {
     border: 0;
     border-bottom: 1px solid rgba(0, 0, 0, .18);
     padding: 12px 0;
@@ -182,14 +182,14 @@
     transition: border-color .2s ease, box-shadow .2s ease;
 }
 
-.cmms-contact-form-input2:focus,
-.cmms-contact-form-textarea2:focus {
+.airbreakswitches-contact-form-input2:focus,
+.airbreakswitches-contact-form-textarea2:focus {
     border-bottom-color: #111;
     box-shadow: 0 1px 0 0 #111;
 }
 
 /* Button */
-.cmms-contact-form-submit2 {
+.airbreakswitches-contact-form-submit2 {
     width: 100%;
     margin-top: 28px;
     background: #c7ff80;
@@ -202,33 +202,33 @@
     transition: filter .2s ease, transform .02s ease-in-out;
 }
 
-.cmms-contact-form-submit2:hover {
+.airbreakswitches-contact-form-submit2:hover {
     filter: brightness(.95);
 }
 
-.cmms-contact-form-submit2:active {
+.airbreakswitches-contact-form-submit2:active {
     transform: translateY(1px);
 }
 
 /* Responsive */
 @media (max-width: 768px) {
-    .cmms-contact-form-grid2 {
+    .airbreakswitches-contact-form-grid2 {
         grid-template-columns: 1fr;
         gap: 18px;
     }
 
-    .cmms-contact-form-wrap {
+    .airbreakswitches-contact-form-wrap {
         padding: 36px 16px 72px;
     }
 }
 
-.cmms-contact-form-submit2.cmms-contact-form-btnloading {
+.airbreakswitches-contact-form-submit2.airbreakswitches-contact-form-btnloading {
     position: relative;
     pointer-events: none;
     opacity: .85;
 }
 
-.cmms-contact-form-submit2.cmms-contact-form-btnloading::after {
+.airbreakswitches-contact-form-submit2.airbreakswitches-contact-form-btnloading::after {
     content: "";
     position: absolute;
     right: 16px;
@@ -239,16 +239,16 @@
     border-radius: 50%;
     border: 2px solid rgba(0, 0, 0, .35);
     border-top-color: rgba(0, 0, 0, .9);
-    animation: cmms-contact-form-spin .8s linear infinite;
+    animation: airbreakswitches-contact-form-spin .8s linear infinite;
 }
 
-@keyframes cmms-contact-form-spin {
+@keyframes airbreakswitches-contact-form-spin {
     to {
         transform: rotate(360deg);
     }
 }
 
-.cmms-contact-form-loc-grid {
+.airbreakswitches-contact-form-loc-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
@@ -257,7 +257,7 @@
     padding: 20px;
 }
 
-.cmms-contact-form-loc-card {
+.airbreakswitches-contact-form-loc-card {
     border-radius: 16px;
     padding: 32px;
     /* increased from 24px */
@@ -269,7 +269,7 @@
     /* ensures uniform taller cards */
 }
 
-.cmms-contact-form-loc-card p {
+.airbreakswitches-contact-form-loc-card p {
     padding-top: 4px;
     color: #121212;
     font-size: 1em;
@@ -279,30 +279,30 @@
 }
 
 /* Background colors for each card */
-.cmms-contact-form-loc-card:nth-child(1) {
+.airbreakswitches-contact-form-loc-card:nth-child(1) {
     background-color: #f9d9a9;
     /* peach */
 }
 
-.cmms-contact-form-loc-card:nth-child(2) {
+.airbreakswitches-contact-form-loc-card:nth-child(2) {
     background-color: #e6d4f9;
     /* lavender */
 }
 
-.cmms-contact-form-loc-card:nth-child(3) {
+.airbreakswitches-contact-form-loc-card:nth-child(3) {
     background-color: #d3dec2;
     /* light green */
 }
 
 /* Header with icon + title */
-.cmms-contact-form-loc-header {
+.airbreakswitches-contact-form-loc-header {
     display: flex;
     align-items: center;
     gap: 12px;
     margin-bottom: 16px;
 }
 
-.cmms-contact-form-loc-icon {
+.airbreakswitches-contact-form-loc-icon {
     background-color: #000;
     border-radius: 50%;
     width: 48px;
@@ -312,20 +312,20 @@
     justify-content: center;
 }
 
-.cmms-contact-form-loc-icon svg {
+.airbreakswitches-contact-form-loc-icon svg {
     width: 24px;
     height: 24px;
     fill: #fff;
 }
 
-.cmms-contact-form-loc-title {
+.airbreakswitches-contact-form-loc-title {
     font-size: 1.25rem;
     font-weight: bold;
     color: #000;
 }
 
 /* Content text */
-.cmms-contact-form-loc-info {
+.airbreakswitches-contact-form-loc-info {
     font-size: 1rem;
     color: #000;
     line-height: 1.6;
@@ -334,7 +334,7 @@
 }
 
 /* Learn more link */
-.cmms-contact-form-loc-learn {
+.airbreakswitches-contact-form-loc-learn {
     color: #000;
     text-decoration: underline;
     font-weight: 500;
@@ -343,18 +343,18 @@
 
 /* Responsive: stack on mobile */
 @media (max-width: 768px) {
-    .cmms-contact-form-loc-grid {
+    .airbreakswitches-contact-form-loc-grid {
         grid-template-columns: 1fr;
     }
 }
 
-.cmms-contact-form-loc-map {
+.airbreakswitches-contact-form-loc-map {
     padding: 2px;
     margin: 4px;
 }
 
-/* cmms-contact-form.css */
-.cmms-contact-form-error {
+/* airbreakswitches-contact-form.css */
+.airbreakswitches-contact-form-error {
     font-size: 14px;
     color: red;
     margin-top: 5px;
@@ -647,38 +647,38 @@
     /* cyan/teal */
 }
 
-.section-neplan-card-with-animation {
+.section-airbreakswitches-card-with-animation {
     padding: clamp(28px, 1vw, 32px) 16px;
     background:  #ffffff;
     color: var(--text);
 }
 
-.container-neplan-card-with-animation {
+.container-airbreakswitches-card-with-animation {
     max-width: 1100px;
     margin: 0 auto;
 }
 
 /* Layout: 3 columns desktop, 2 tablet, 1 mobile */
-.grid-neplan-card-with-animation {
+.grid-airbreakswitches-card-with-animation {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: clamp(16px, 2.6vw, 24px);
 }
 
 @media (max-width: 900px) {
-    .grid-neplan-card-with-animation {
+    .grid-airbreakswitches-card-with-animation {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 
 @media (max-width: 560px) {
-    .grid-neplan-card-with-animation {
+    .grid-airbreakswitches-card-with-animation {
         grid-template-columns: 1fr;
     }
 }
 
 /* Common card frame */
-.card-neplan-card-with-animation {
+.card-airbreakswitches-card-with-animation {
     border-radius: 18px;
     background: #fff;
     border: 1px solid var(--ring);
@@ -692,12 +692,12 @@
 }
 
 /* Image card */
-.img-card-neplan-card-with-animation {
+.img-card-airbreakswitches-card-with-animation {
     padding: 0;
     background: #e9eef6;
 }
 
-.img-card-neplan-card-with-animation img {
+.img-card-airbreakswitches-card-with-animation img {
     display: block;
     width: 100%;
     height: 100%;
@@ -706,12 +706,12 @@
 }
 
 /* Content card */
-.content-card-neplan-card-with-animation {
+.content-card-airbreakswitches-card-with-animation {
     background: var(--tile);
     padding: clamp(16px, 2.2vw, 20px);
 }
 
-.icon-neplan-card-with-animation {
+.icon-airbreakswitches-card-with-animation {
     width: 40px;
     height: 40px;
     border-radius: 12px;
@@ -724,13 +724,13 @@
     box-shadow: inset 0 0 0 4px rgba(255, 255, 255, .5);
 }
 
-.title-neplan-card-with-animation {
+.title-airbreakswitches-card-with-animation {
     margin: 0 0 .35rem;
     font-weight: 900;
     font-size: clamp(1.05rem, 1.6vw, 1.2rem);
 }
 
-.desc-neplan-card-with-animation {
+.desc-airbreakswitches-card-with-animation {
     margin: 0;
     color: var(--muted);
     line-height: 1.6;
@@ -753,7 +753,7 @@
     --y: 26px;
 }
 
-.card-neplan-card-with-animation {
+.card-airbreakswitches-card-with-animation {
     transform: translate(var(--x, 0), var(--y, 28px)) scale(.98);
 }
 
@@ -780,12 +780,12 @@
 /* bottom-middle */
 
 /* Reveal */
-.show-neplan-card-with-animation {
-    animation: reveal-neplan-card-with-animation .7s cubic-bezier(.2, .7, .2, 1) forwards;
+.show-airbreakswitches-card-with-animation {
+    animation: reveal-airbreakswitches-card-with-animation .7s cubic-bezier(.2, .7, .2, 1) forwards;
     animation-delay: var(--delay, 0s);
 }
 
-@keyframes reveal-neplan-card-with-animation {
+@keyframes reveal-airbreakswitches-card-with-animation {
     from {
         opacity: 0;
         transform: translate(var(--x, 0), var(--y, 28px)) scale(.98);
@@ -799,18 +799,18 @@
 
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
-    .card-neplan-card-with-animation {
+    .card-airbreakswitches-card-with-animation {
         opacity: 1;
         transform: none;
     }
 
-    .show-neplan-card-with-animation {
+    .show-airbreakswitches-card-with-animation {
         animation: none;
     }
 }
 
 /* Tag + title */
-.tag-neplan-testimonials {
+.tag-airbreakswitches-testimonials {
     display: inline-block;
     font-size: .78rem;
     font-weight: 800;
@@ -822,7 +822,7 @@
 }
 
 /* Tag + title */
-.tag-neplan-testimonials {
+.tag-airbreakswitches-testimonials {
     display: inline-block;
     font-size: .78rem;
     font-weight: 800;
@@ -850,19 +850,19 @@
     --wwb-shadow: 0 18px 44px rgba(2, 8, 23, .10);
 }
 
-.section-neplan-what-we-bring {
+.section-airbreakswitches-what-we-bring {
     padding: clamp(28px, 2vw, 32px) 16px;
     background: #fff;
     color: var(--wwb-text);
 }
 
-.container-neplan-what-we-bring {
+.container-airbreakswitches-what-we-bring {
     max-width: 1100px;
     margin: 0 auto;
 }
 
 /* Header */
-.eyebrow-neplan-what-we-bring {
+.eyebrow-airbreakswitches-what-we-bring {
     display: inline-flex;
     align-items: center;
     gap: .5rem;
@@ -872,7 +872,7 @@
     opacity: .85;
 }
 
-.eyebrow-neplan-what-we-bring::before {
+.eyebrow-airbreakswitches-what-we-bring::before {
     content: "";
     width: 28px;
     height: 3px;
@@ -880,7 +880,7 @@
     background: linear-gradient(90deg, var(--wwb-primary), var(--wwb-primary2));
 }
 
-.title-neplan-what-we-bring {
+.title-airbreakswitches-what-we-bring {
     margin: 0 0 1.2rem;
     font-weight: 900;
     letter-spacing: .2px;
@@ -888,7 +888,7 @@
 }
 
 /* Grid list */
-.grid-neplan-what-we-bring {
+.grid-airbreakswitches-what-we-bring {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -898,13 +898,13 @@
 }
 
 @media (max-width: 720px) {
-    .grid-neplan-what-we-bring {
+    .grid-airbreakswitches-what-we-bring {
         grid-template-columns: 1fr;
     }
 }
 
 /* Item */
-.item-neplan-what-we-bring {
+.item-airbreakswitches-what-we-bring {
     display: grid;
     grid-template-columns: 56px 1fr;
     align-items: start;
@@ -918,7 +918,7 @@
     overflow: hidden;
 }
 
-.item-neplan-what-we-bring::before {
+.item-airbreakswitches-what-we-bring::before {
     content: "";
     position: absolute;
     left: 0;
@@ -929,7 +929,7 @@
 }
 
 /* Icon */
-.icon-neplan-what-we-bring {
+.icon-airbreakswitches-what-we-bring {
     width: 44px;
     height: 44px;
     border-radius: 12px;
@@ -942,32 +942,32 @@
 }
 
 /* Text */
-.item-title-neplan-what-we-bring {
+.item-title-airbreakswitches-what-we-bring {
     margin: .15rem 0 .35rem;
     font-size: clamp(1.05rem, 1.6vw, 1.25rem);
     font-weight: 900;
 }
 
-.content-neplan-what-we-bring p {
+.content-airbreakswitches-what-we-bring p {
     margin: 0;
     line-height: 1.65;
     color: var(--wwb-muted);
 }
 
-.content-neplan-what-we-bring a {
+.content-airbreakswitches-what-we-bring a {
     color: var(--wwb-primary2);
     font-weight: 700;
     text-decoration: none;
     border-bottom: 1px solid rgba(117, 59, 21, 0.25);
 }
 
-.content-neplan-what-we-bring a:hover {
+.content-airbreakswitches-what-we-bring a:hover {
     border-color: transparent;
     text-decoration: underline;
 }
 
 /* Closing highlight */
-.closing-neplan-what-we-bring {
+.closing-airbreakswitches-what-we-bring {
     margin-top: clamp(18px, 1vw, 26px);
     padding: clamp(12px, 1vw, 16px) clamp(14px, 1.4vw, 18px);
     /* border: 1px dashed var(--wwb-ring); */
@@ -976,25 +976,25 @@
 }
 
 /* Subtle load-in animation */
-.item-neplan-what-we-bring {
+.item-airbreakswitches-what-we-bring {
     opacity: 0;
     transform: translateY(10px);
     animation: wwbFadeUp .6s ease forwards;
 }
 
-.item-neplan-what-we-bring:nth-child(1) {
+.item-airbreakswitches-what-we-bring:nth-child(1) {
     animation-delay: .02s;
 }
 
-.item-neplan-what-we-bring:nth-child(2) {
+.item-airbreakswitches-what-we-bring:nth-child(2) {
     animation-delay: .08s;
 }
 
-.item-neplan-what-we-bring:nth-child(3) {
+.item-airbreakswitches-what-we-bring:nth-child(3) {
     animation-delay: .14s;
 }
 
-.item-neplan-what-we-bring:nth-child(4) {
+.item-airbreakswitches-what-we-bring:nth-child(4) {
     animation-delay: .20s;
 }
 
@@ -1006,7 +1006,7 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .item-neplan-what-we-bring {
+    .item-airbreakswitches-what-we-bring {
         animation: none;
         opacity: 1;
         transform: none;
@@ -1072,8 +1072,8 @@
 }
 
 /* =========================================================
-   NEPLAN — Locations (cards)
-   Use with: .neplan-locations-wrap / -grid / -card / etc.
+   airbreakswitches — Locations (cards)
+   Use with: .airbreakswitches-locations-wrap / -grid / -card / etc.
    ========================================================= */
 :root {
      
@@ -1092,7 +1092,7 @@
 }
 
 /* Wrapper */
-.neplan-locations-wrap {
+.airbreakswitches-locations-wrap {
     padding: clamp(28px, 6vw, 72px) 16px;
     background:#ffffff;
     max-width: 1120px;
@@ -1102,7 +1102,7 @@
 }
 
 /* Grid */
-.neplan-locations-grid {
+.airbreakswitches-locations-grid {
     display: grid;
     gap: clamp(14px, 2.4vw, 22px);
     grid-template-columns: repeat(3, minmax(260px, 1fr));
@@ -1110,19 +1110,19 @@
 }
 
 @media (max-width:1024px) {
-    .neplan-locations-grid {
+    .airbreakswitches-locations-grid {
         grid-template-columns: repeat(2, minmax(260px, 1fr));
     }
 }
 
 @media (max-width:620px) {
-    .neplan-locations-grid {
+    .airbreakswitches-locations-grid {
         grid-template-columns: 1fr;
     }
 }
 
 /* Card */
-.neplan-locations-card {
+.airbreakswitches-locations-card {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -1136,7 +1136,7 @@
     overflow: hidden;
 }
 
-.neplan-locations-card::before {
+.airbreakswitches-locations-card::before {
     /* top accent line */
     content: "";
     position: absolute;
@@ -1147,14 +1147,14 @@
     background: linear-gradient(90deg, var(--nl-primary), var(--nl-primary-2));
 }
 
-.neplan-locations-card:hover {
+.airbreakswitches-locations-card:hover {
     transform: translateY(-6px);
     box-shadow: var(--nl-shadow-lg);
     border-color: color-mix(in oklab, var(--nl-primary) 45%, var(--nl-ring));
 }
 
 /* Header */
-.neplan-locations-header {
+.airbreakswitches-locations-header {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -1162,7 +1162,7 @@
 }
 
 /* Icon */
-.neplan-locations-icon {
+.airbreakswitches-locations-icon {
     width: 44px;
     height: 44px;
     border-radius: 12px;
@@ -1173,7 +1173,7 @@
     box-shadow: inset 0 0 0 5px rgba(255, 255, 255, .55);
 }
 
-.neplan-locations-icon svg {
+.airbreakswitches-locations-icon svg {
     width: 22px;
     height: 22px;
     fill: #fff;
@@ -1181,7 +1181,7 @@
 }
 
 /* Title */
-.neplan-locations-title {
+.airbreakswitches-locations-title {
     margin: 0;
     font-size: clamp(1.05rem, 1.7vw, 1.25rem);
     font-weight: 900;
@@ -1190,27 +1190,27 @@
 }
 
 /* Body text */
-.neplan-locations-phone,
-.neplan-locations-email,
-.neplan-locations-address {
+.airbreakswitches-locations-phone,
+.airbreakswitches-locations-email,
+.airbreakswitches-locations-address {
     margin: .15rem 0;
     color: var(--nl-text);
     line-height: 1.55;
 }
 
-.neplan-locations-email a {
+.airbreakswitches-locations-email a {
     color: var(--nl-primary-2);
     text-decoration: none;
     border-bottom: 1px solid rgba(117, 61, 21, 0.28);
 }
 
-.neplan-locations-email a:hover {
+.airbreakswitches-locations-email a:hover {
     border-color: transparent;
     text-decoration: underline;
 }
 
 /* Map button */
-.neplan-locations-map {
+.airbreakswitches-locations-map {
     margin-top: .5rem;
     align-self: flex-start;
     display: inline-flex;
@@ -1228,50 +1228,50 @@
     transition: transform .22s ease, box-shadow .22s ease, background .22s ease, border-color .22s ease;
 }
 
-.neplan-locations-map:hover {
+.airbreakswitches-locations-map:hover {
     transform: translateY(-2px);
     background: var(--nl-hover);
     border-color: var(--nl-hover);
 }
 
-.neplan-locations-map:active {
+.airbreakswitches-locations-map:active {
     transform: none;
     background: var(--nl-active);
     border-color: var(--nl-active);
 }
 
 /* Subtle separators inside card (optional) */
-.neplan-locations-card p+p {
+.airbreakswitches-locations-card p+p {
     border-top: 1px dashed var(--nl-ring);
     padding-top: .5rem;
 }
 
 /* Variant accents (optional) */
-.neplan-locations-card--au .neplan-locations-icon {
+.airbreakswitches-locations-card--au .airbreakswitches-locations-icon {
     background: linear-gradient(135deg,  #a16207, #f59e0b);
 }
 
-.neplan-locations-card--in .neplan-locations-icon {
+.airbreakswitches-locations-card--in .airbreakswitches-locations-icon {
     background: linear-gradient(135deg,  #a16207, #f59e0b);
 }
 
-.neplan-locations-card--fj .neplan-locations-icon {
+.airbreakswitches-locations-card--fj .airbreakswitches-locations-icon {
     background: linear-gradient(135deg,  #a16207, #f59e0b);
 }
 
 /* Accessibility: reduced motion */
 @media (prefers-reduced-motion: reduce) {
-    .neplan-locations-card {
+    .airbreakswitches-locations-card {
         transition: none;
     }
 
-    .neplan-locations-map {
+    .airbreakswitches-locations-map {
         transition: none;
     }
 }
 
 /* Center the locations section and cap width at 1400px */
-.neplan-locations-wrap {
+.airbreakswitches-locations-wrap {
     width: min(100%, 1220px);
     max-width: 1220px;
     /* hard cap */
@@ -1286,13 +1286,13 @@
 
 /* (optional) if you previously used justify-items/align-items here,
    move them to the grid container instead */
-.neplan-locations-grid {
+.airbreakswitches-locations-grid {
     justify-items: stretch;
     align-items: stretch;
 }
 
 /* =========================================
-   NEPLAN — Advantages (7)
+   airbreakswitches — Advantages (7)
    ========================================= */
 :root {
    
@@ -1305,19 +1305,19 @@
     --adv7-shadow: 0 18px 44px rgba(2, 8, 23, .10);
 }
 
-.section-neplan-advantages-seven {
+.section-airbreakswitches-advantages-seven {
     padding: clamp(28px, 3vw, 72px) 16px;
     background: #fff;
     color: var(--adv7-text);
 }
 
-.container-neplan-advantages-seven {
+.container-airbreakswitches-advantages-seven {
     width: min(100%, 1120px);
     margin-inline: auto;
 }
 
 /* Header */
-.eyebrow-neplan-advantages-seven {
+.eyebrow-airbreakswitches-advantages-seven {
     display: inline-flex;
     gap: .5rem;
     align-items: center;
@@ -1327,7 +1327,7 @@
     margin: 0 0 .5rem;
 }
 
-.eyebrow-neplan-advantages-seven::before {
+.eyebrow-airbreakswitches-advantages-seven::before {
     content: "";
     width: 28px;
     height: 3px;
@@ -1335,26 +1335,26 @@
     background: linear-gradient(90deg, var(--adv7-primary), var(--adv7-primary2));
 }
 
-.title-neplan-advantages-seven {
+.title-airbreakswitches-advantages-seven {
     margin: 0 0 .6rem;
     font-size: clamp(1.6rem, 4.6vw, 2.4rem);
     font-weight: 900;
     line-height: 1.15;
 }
 
-.intro-neplan-advantages-seven {
+.intro-airbreakswitches-advantages-seven {
     margin: 0 0 1.2rem;
     color: var(--adv7-muted);
     line-height: 1.7;
 }
 
-.intro-neplan-advantages-seven a {
+.intro-airbreakswitches-advantages-seven a {
     color: var(--adv7-primary2);
     font-weight: 700;
 }
 
 /* Grid of cards */
-.adv-grid-neplan-advantages-seven {
+.adv-grid-airbreakswitches-advantages-seven {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -1364,19 +1364,19 @@
 }
 
 @media (max-width: 1000px) {
-    .adv-grid-neplan-advantages-seven {
+    .adv-grid-airbreakswitches-advantages-seven {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 
 @media (max-width: 620px) {
-    .adv-grid-neplan-advantages-seven {
+    .adv-grid-airbreakswitches-advantages-seven {
         grid-template-columns: 1fr;
     }
 }
 
 /* Card */
-.adv-card-neplan-advantages-seven {
+.adv-card-airbreakswitches-advantages-seven {
     background: linear-gradient(180deg, #fff, var(--adv7-soft));
     border: 1px solid var(--adv7-ring);
     border-radius: 16px;
@@ -1389,7 +1389,7 @@
     animation: adv7-fadeUp .7s cubic-bezier(.22, 1, .36, 1) forwards;
 }
 
-.adv-card-neplan-advantages-seven::before {
+.adv-card-airbreakswitches-advantages-seven::before {
     content: "";
     position: absolute;
     left: 0;
@@ -1400,31 +1400,31 @@
 }
 
 /* Stagger */
-.adv-card-neplan-advantages-seven:nth-child(1) {
+.adv-card-airbreakswitches-advantages-seven:nth-child(1) {
     animation-delay: .02s;
 }
 
-.adv-card-neplan-advantages-seven:nth-child(2) {
+.adv-card-airbreakswitches-advantages-seven:nth-child(2) {
     animation-delay: .10s;
 }
 
-.adv-card-neplan-advantages-seven:nth-child(3) {
+.adv-card-airbreakswitches-advantages-seven:nth-child(3) {
     animation-delay: .18s;
 }
 
-.adv-card-neplan-advantages-seven:nth-child(4) {
+.adv-card-airbreakswitches-advantages-seven:nth-child(4) {
     animation-delay: .26s;
 }
 
-.adv-card-neplan-advantages-seven:nth-child(5) {
+.adv-card-airbreakswitches-advantages-seven:nth-child(5) {
     animation-delay: .34s;
 }
 
-.adv-card-neplan-advantages-seven:nth-child(6) {
+.adv-card-airbreakswitches-advantages-seven:nth-child(6) {
     animation-delay: .42s;
 }
 
-.adv-card-neplan-advantages-seven:nth-child(7) {
+.adv-card-airbreakswitches-advantages-seven:nth-child(7) {
     animation-delay: .50s;
 }
 
@@ -1446,14 +1446,14 @@
 }
 
 /* inside card */
-.adv-top-neplan-advantages-seven {
+.adv-top-airbreakswitches-advantages-seven {
     display: flex;
     align-items: center;
     gap: .6rem;
     margin-bottom: .35rem;
 }
 
-.adv-num-neplan-advantages-seven {
+.adv-num-airbreakswitches-advantages-seven {
     width: 38px;
     height: 38px;
     border-radius: 10px;
@@ -1465,33 +1465,33 @@
     box-shadow: inset 0 0 0 4px rgba(255, 255, 255, .5);
 }
 
-.adv-head-neplan-advantages-seven {
+.adv-head-airbreakswitches-advantages-seven {
     margin: 0;
     font-size: clamp(1.02rem, 1.6vw, 1.22rem);
     font-weight: 900;
 }
 
-.adv-card-neplan-advantages-seven p {
+.adv-card-airbreakswitches-advantages-seven p {
     margin: 0;
     line-height: 1.65;
     color: var(--adv7-muted);
 }
 
-.adv-card-neplan-advantages-seven a {
+.adv-card-airbreakswitches-advantages-seven a {
     color: var(--adv7-primary2);
     font-weight: 700;
     text-decoration: none;
     border-bottom: 1px solid rgba(21, 94, 117, .28);
 }
 
-.adv-card-neplan-advantages-seven a:hover {
+.adv-card-airbreakswitches-advantages-seven a:hover {
     border-color: transparent;
     text-decoration: underline;
 }
 
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
-    .adv-card-neplan-advantages-seven {
+    .adv-card-airbreakswitches-advantages-seven {
         animation: none;
         opacity: 1;
         transform: none;
@@ -1503,16 +1503,16 @@
 
 /* Desktop (3 columns): put #7 in the middle column */
 @media (min-width: 1001px){
-  .adv-grid-neplan-advantages-seven
-  > .adv-card-neplan-advantages-seven:nth-child(7){
+  .adv-grid-airbreakswitches-advantages-seven
+  > .adv-card-airbreakswitches-advantages-seven:nth-child(7){
     grid-column: 2;               /* middle column */
   }
 }
 
 /* Tablet (2 columns): make #7 span both and center it */
 @media (max-width: 1000px) and (min-width: 621px){
-  .adv-grid-neplan-advantages-seven
-  > .adv-card-neplan-advantages-seven:nth-child(7){
+  .adv-grid-airbreakswitches-advantages-seven
+  > .adv-card-airbreakswitches-advantages-seven:nth-child(7){
     grid-column: 1 / -1;          /* span both columns */
     justify-self: center;         /* center within the row */
     max-width: clamp(420px, 70%, 620px);

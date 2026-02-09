@@ -110,9 +110,9 @@ def request_demo_view(request):
     country_code, dial = (country.split("|", 1) + [""])[:2]
 
     ts = timezone.now().strftime("%Y-%m-%d %H:%M:%S %Z")
-    subject = "New Lv-Electrical-Panel inquiry"
+    subject = "New Air Break Switches inquiry"
     text_body = (
-        "A new Lv-Electrical-Panel inquiry request was submitted.\n\n"
+        "A new Air Break Switches inquiry request was submitted.\n\n"
         f"Submitted: {ts}\n"
         f"IP: {request.META.get('REMOTE_ADDR','')}\n\n"
         f"Full name: {full_name}\n"
@@ -126,7 +126,7 @@ def request_demo_view(request):
     )
 
     html_body = f"""
-        <h2 style="margin:0 0 8px">New air break switches Inquiry Request</h2>
+        <h2 style="margin:0 0 8px">New Air Break Switches Inquiry Request</h2>
         <p style="margin:0 0 12px;color:#334">Submitted {ts} from {request.META.get('REMOTE_ADDR','')}</p>
         <table cellpadding="6" cellspacing="0" style="border-collapse:collapse;background:#f9fbfc">
           <tr><td><b>Full name</b></td><td>{full_name}</td></tr>
@@ -188,10 +188,10 @@ def contact_section(request):
         )
 
         # Email body
-        subject = "New website contact submission for air break switches"
+        subject = "New website contact submission for Air Break Switches"
         text_body = "\n".join(
             [
-                "New contact submission for air break switches",
+                "New contact submission for Air Break Switches",
                 f"Name: {cd['first_name']} {cd.get('last_name','')}".strip(),
                 f"Company: {cd.get('company','')}",
                 f"Email: {cd['email']}",

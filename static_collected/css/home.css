@@ -29,19 +29,19 @@ section[id] {
 }
 
 /* ============= BASE LAYOUT ============= */
-.container-solar-system {
+.container-airbreakswitches {
   width: min(92vw, var(--container-w-solar));
   margin-inline: auto;
 }
 
-.section-hero-solar-system {
+.section-hero-airbreakswitches {
   position: relative;
   background: white;
   padding-top: 3vw;
   padding: clamp(48px, .2vw, 80px) 0 0;
 }
 
-.grid-hero-solar-system {
+.grid-hero-airbreakswitches {
   display: grid;
   grid-template-columns: 1.1fr .9fr;
   gap: clamp(24px, 4vw, 48px);
@@ -50,11 +50,11 @@ section[id] {
 
 
 
-.hero-right-solar-system {
+.hero-right-airbreakswitches {
   justify-self: end;
 }
 
-.hero-title-solar-system {
+.hero-title-airbreakswitches {
   font-size: clamp(32px, 5vw, 56px);
   line-height: 1.05;
   letter-spacing: .2px;
@@ -63,23 +63,23 @@ section[id] {
   font-weight: 800;
 }
 
-.accent-solar-system {
+.accent-airbreakswitches {
   color: var(--teal-700-solar);
 }
 
-.hero-sub-solar-system {
+.hero-sub-airbreakswitches {
   color: var(--muted-solar);
   margin: 0 0 26px;
   font-size: clamp(15px, 1.8vw, 18px);
 }
 
-.hero-cta-solar-system {
+.hero-cta-airbreakswitches {
   display: flex;
   gap: 12px;
 }
 
-.btn-primary-solar-system,
-.btn-ghost-solar-system {
+.btn-primary-airbreakswitches,
+.btn-ghost-airbreakswitches {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -91,28 +91,28 @@ section[id] {
   transition: transform .2s ease, box-shadow .2s ease, background-color .2s ease, color .2s ease, border-color .2s ease;
 }
 
-.btn-primary-solar-system {
+.btn-primary-airbreakswitches {
   background: linear-gradient(135deg, var(--teal-700-solar), var(--cyan-800-solar));
   color: var(--white-solar);
   box-shadow: var(--shadow-soft-solar);
 }
 
-.btn-primary-solar-system:hover {
+.btn-primary-airbreakswitches:hover {
   transform: translateY(-2px);
 }
 
-.btn-ghost-solar-system {
+.btn-ghost-airbreakswitches {
   background: transparent;
   border-color: var(--cyan-800-solar);
   color: var(--cyan-800-solar);
 }
 
-.btn-ghost-solar-system:hover {
+.btn-ghost-airbreakswitches:hover {
   background: var(--cyan-800-solar);
   color: var(--white-solar);
 }
 
-.hero-img-solar-system {
+.hero-img-airbreakswitches {
   width: min(520px, 40vw);
   aspect-ratio: 4 / 5;
   object-fit: cover;
@@ -121,7 +121,7 @@ section[id] {
   display: block;
 }
 
-.hero-band-solar-system {
+.hero-band-airbreakswitches {
   display: none;
   position: absolute;
   left: 50%;
@@ -136,14 +136,14 @@ section[id] {
   z-index: 0;
 }
 
-.hero-right-solar-system,
-.hero-left-solar-system {
+.hero-right-airbreakswitches,
+.hero-left-airbreakswitches {
   position: relative;
   z-index: 1;
 }
 
 /* Trusted section */
-.section-trusted-solar-system {
+.section-trusted-airbreakswitches {
   background: #0f1b2a;
   /* deep slate like your screenshot */
   color: #fff;
@@ -151,7 +151,7 @@ section[id] {
   margin-top: clamp(18px, 1vw, 20px);
 }
 
-.trusted-heading-solar-system {
+.trusted-heading-airbreakswitches {
   text-align: center;
   font-size: clamp(18px, 2.2vw, 24px);
   font-weight: 800;
@@ -160,7 +160,7 @@ section[id] {
 }
 
 /* Logo carousel */
-.logos-wrap-solar-system {
+.logos-wrap-airbreakswitches {
   overflow: hidden;
   position: relative;
   padding: 6px 0;
@@ -170,20 +170,20 @@ section[id] {
   border-radius: 0;
 }
 
-.logos-track-solar-system {
+.logos-track-airbreakswitches {
   display: inline-flex;
   align-items: center;
   gap: clamp(28px, 4vw, 46px);
   padding-inline: 12px;
-  animation: marquee-solar-system 28s linear infinite;
+  animation: marquee-airbreakswitches 28s linear infinite;
   will-change: transform;
 }
 
-.logos-wrap-solar-system:hover .logos-track-solar-system {
+.logos-wrap-airbreakswitches:hover .logos-track-airbreakswitches {
   animation-play-state: paused;
 }
 
-.logo-item-solar-system {
+.logo-item-airbreakswitches {
   height: clamp(22px, 3.2vw, 34px);
   width: auto;
   opacity: .9;
@@ -191,12 +191,12 @@ section[id] {
   transition: opacity .2s ease, transform .2s ease;
 }
 
-.logo-item-solar-system:hover {
+.logo-item-airbreakswitches:hover {
   opacity: 1;
   transform: translateY(-2px);
 }
 
-@keyframes marquee-solar-system {
+@keyframes marquee-airbreakswitches {
   from {
     transform: translateX(0);
   }
@@ -209,14 +209,14 @@ section[id] {
 
 
 /* --- DOTS (pagination) --- */
-.dots-solar-system {
+.dots-airbreakswitches {
   display: flex;
   justify-content: center;
   gap: 8px;
   margin-top: clamp(10px, 1vw, 14px);
 }
 
-.dot-solar-system {
+.dot-airbreakswitches {
   width: 6px;
   height: 6px;
   background: rgba(255, 255, 255, .35);
@@ -225,32 +225,32 @@ section[id] {
   transition: transform .15s ease, background .2s ease;
 }
 
-.dot-solar-system.is-active-solar-system {
+.dot-airbreakswitches.is-active-airbreakswitches {
   background: rgba(255, 255, 255, .85);
   transform: scale(1.15);
 }
 
 /* ============= SCROLL REVEAL ============= */
-.reveal-solar-system {
+.reveal-airbreakswitches {
   opacity: 0;
   transform: translateY(28px) scale(.98);
   transition: opacity .7s cubic-bezier(.2, .65, .2, 1),
     transform .7s cubic-bezier(.2, .65, .2, 1);
 }
 
-.in-view-solar-system {
+.in-view-airbreakswitches {
   opacity: 1 !important;
   transform: translateY(0) scale(1) !important;
 }
 
 /* Respect reduced motion */
 @media (prefers-reduced-motion: reduce) {
-  .logos-track-solar-system {
+  .logos-track-airbreakswitches {
     animation: none;
   }
 
-  .reveal-solar-system,
-  .in-view-solar-system {
+  .reveal-airbreakswitches,
+  .in-view-airbreakswitches {
     transition: none;
     transform: none;
     opacity: 1;
@@ -259,21 +259,21 @@ section[id] {
 
 /* ============= RESPONSIVE ============= */
 @media (max-width: 960px) {
-  .grid-hero-solar-system {
+  .grid-hero-airbreakswitches {
     grid-template-columns: 1fr;
   }
 
-  .hero-right-solar-system {
+  .hero-right-airbreakswitches {
     justify-self: start;
   }
 
-  .hero-img-solar-system,
-  .hero-band-solar-system {
+  .hero-img-airbreakswitches,
+  .hero-band-airbreakswitches {
     width: 100%;
     max-width: 520px;
   }
 
-  .hero-band-solar-system {
+  .hero-band-airbreakswitches {
     left: 0;
     transform: none;
   }
@@ -281,22 +281,22 @@ section[id] {
 
 /* --- RESPONSIVE polish --- */
 @media (max-width: 960px) {
-  .grid-hero-solar-system {
+  .grid-hero-airbreakswitches {
     grid-template-columns: 1fr;
   }
 
-  .hero-img-solar-system {
+  .hero-img-airbreakswitches {
     width: 100%;
     max-width: 520px;
   }
 }
 
 @media (max-width: 560px) {
-  .logos-track-solar-system {
+  .logos-track-airbreakswitches {
     gap: 24px;
   }
 
-  .trusted-heading-solar-system {
+  .trusted-heading-airbreakswitches {
     font-size: 18px;
   }
 }
@@ -308,16 +308,16 @@ section[id] {
 }
 
 /* Make sure the hero image can layer above the next section */
-.section-hero-solar-system {
+.section-hero-airbreakswitches {
   position: relative;
   z-index: 2;
 }
 
-.hero-right-solar-system {
+.hero-right-airbreakswitches {
   position: relative;
 }
 
-.hero-img-solar-system {
+.hero-img-airbreakswitches {
   position: relative;
   z-index: 3;
   /* sits above the Trusted section */
@@ -327,7 +327,7 @@ section[id] {
 }
 
 /* Remove the old base band if still present */
-.hero-band-solar-system {
+.hero-band-airbreakswitches {
   display: none !important;
 }
 
@@ -335,12 +335,12 @@ section[id] {
 @media (min-width: 961px) {
 
   /* Dip the image down */
-  .hero-img-solar-system {
+  .hero-img-airbreakswitches {
     transform: translateY(var(--overlap-solar));
   }
 
   /* Pull the Trusted section up so the image overlaps it */
-  .section-trusted-solar-system {
+  .section-trusted-airbreakswitches {
     position: relative;
     z-index: 1;
     margin-top: calc(var(--overlap-solar) * -1);
@@ -354,11 +354,11 @@ section[id] {
 
 /* ===== Mobile/Tablet: no overlap (clean stack) ===== */
 @media (max-width: 960px) {
-  .hero-img-solar-system {
+  .hero-img-airbreakswitches {
     transform: none;
   }
 
-  .section-trusted-solar-system {
+  .section-trusted-airbreakswitches {
     margin-top: clamp(28px, 6vw, 60px);
     /* your normal spacing */
     padding-top: clamp(56px, 8vw, 84px);
@@ -366,7 +366,7 @@ section[id] {
 }
 
 /* Stop marquee while user is paging via dots */
-.logos-track-solar-system.manual-solar-system {
+.logos-track-airbreakswitches.manual-airbreakswitches {
   animation: none !important;
 }
 
@@ -375,12 +375,12 @@ section[id] {
 /* why us */
 
 /* ====== WHY section: structure ====== */
-.section-why-solar-system-why {
+.section-why-airbreakswitches-why {
   background: var(--bg-solar);
   padding: clamp(16px, 1vw, 16px) 0;
 }
 
-.eyebrow-solar-system-why {
+.eyebrow-airbreakswitches-why {
   color: var(--teal-700-solar);
   font-weight: 800;
   letter-spacing: .4px;
@@ -388,7 +388,7 @@ section[id] {
   margin: 0 0 8px;
 }
 
-.title-solar-system-why {
+.title-airbreakswitches-why {
   text-align: center;
   color: var(--ink-solar);
   font-size: clamp(24px, 4vw, 40px);
@@ -398,7 +398,7 @@ section[id] {
 }
 
 /* Grid with subtle vertical dividers like your screenshot */
-.grid-solar-system-why {
+.grid-airbreakswitches-why {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: clamp(18px, 3vw, 28px) clamp(18px, 3vw, 32px);
@@ -406,26 +406,26 @@ section[id] {
 }
 
 /* create column separators */
-.grid-solar-system-why>.card-solar-system-why {
+.grid-airbreakswitches-why>.card-airbreakswitches-why {
   position: relative;
   padding: clamp(16px, 1vw, 20px);
   background: transparent;
 }
 
-.grid-solar-system-why>.card-solar-system-why:nth-child(1),
-.grid-solar-system-why>.card-solar-system-why:nth-child(2),
-.grid-solar-system-why>.card-solar-system-why:nth-child(4),
-.grid-solar-system-why>.card-solar-system-why:nth-child(5) {
+.grid-airbreakswitches-why>.card-airbreakswitches-why:nth-child(1),
+.grid-airbreakswitches-why>.card-airbreakswitches-why:nth-child(2),
+.grid-airbreakswitches-why>.card-airbreakswitches-why:nth-child(4),
+.grid-airbreakswitches-why>.card-airbreakswitches-why:nth-child(5) {
   border-right: 1px solid rgba(21, 94, 117, .15);
   /* cyan-800 at low opacity */
 }
 
-.grid-solar-system-why>.card-solar-system-why:nth-child(n+4) {
+.grid-airbreakswitches-why>.card-airbreakswitches-why:nth-child(n+4) {
   border-top: 1px solid rgba(21, 94, 117, .15);
 }
 
 /* card content */
-.icon-wrap-solar-system-why {
+.icon-wrap-airbreakswitches-why {
   width: 44px;
   height: 44px;
   display: inline-flex;
@@ -439,19 +439,19 @@ section[id] {
   flex-shrink: 0;
 }
 
-.icon-wrap-solar-system-why i {
+.icon-wrap-airbreakswitches-why i {
   font-size: 22px;
   line-height: 1;
 }
 
-.card-title-solar-system-why {
+.card-title-airbreakswitches-why {
   margin: 0 0 6px;
   font-weight: 800;
   color: var(--ink-solar);
   font-size: clamp(16px, 2vw, 18px);
 }
 
-.card-text-solar-system-why {
+.card-text-airbreakswitches-why {
   margin: 0;
   color: var(--muted-solar);
   font-size: clamp(14px, 1.9vw, 16px);
@@ -459,13 +459,13 @@ section[id] {
 }
 
 /* ====== Reveal Animations (slow) ======
-   Uses your existing JS: it toggles .in-view-solar-system.
-   Add direction classes ending with -solar-system-why.
+   Uses your existing JS: it toggles .in-view-airbreakswitches.
+   Add direction classes ending with -airbreakswitches-why.
 */
-.reveal-left-solar-system-why,
-.reveal-right-solar-system-why,
-.reveal-top-solar-system-why,
-.reveal-bottom-solar-system-why {
+.reveal-left-airbreakswitches-why,
+.reveal-right-airbreakswitches-why,
+.reveal-top-airbreakswitches-why,
+.reveal-bottom-airbreakswitches-why {
   opacity: 0;
   transform: translate3d(0, 0, 0);
   transition:
@@ -475,27 +475,27 @@ section[id] {
 }
 
 /* initial offsets */
-.reveal-left-solar-system-why {
+.reveal-left-airbreakswitches-why {
   transform: translateX(-28px);
 }
 
-.reveal-right-solar-system-why {
+.reveal-right-airbreakswitches-why {
   transform: translateX(28px);
 }
 
-.reveal-top-solar-system-why {
+.reveal-top-airbreakswitches-why {
   transform: translateY(-28px);
 }
 
-.reveal-bottom-solar-system-why {
+.reveal-bottom-airbreakswitches-why {
   transform: translateY(28px);
 }
 
-/* when JS adds .in-view-solar-system to the same element */
-.in-view-solar-system.reveal-left-solar-system-why,
-.in-view-solar-system.reveal-right-solar-system-why,
-.in-view-solar-system.reveal-top-solar-system-why,
-.in-view-solar-system.reveal-bottom-solar-system-why {
+/* when JS adds .in-view-airbreakswitches to the same element */
+.in-view-airbreakswitches.reveal-left-airbreakswitches-why,
+.in-view-airbreakswitches.reveal-right-airbreakswitches-why,
+.in-view-airbreakswitches.reveal-top-airbreakswitches-why,
+.in-view-airbreakswitches.reveal-bottom-airbreakswitches-why {
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
@@ -503,10 +503,10 @@ section[id] {
 /* prefer-reduced-motion: show everything without animation */
 @media (prefers-reduced-motion: reduce) {
 
-  .reveal-left-solar-system-why,
-  .reveal-right-solar-system-why,
-  .reveal-top-solar-system-why,
-  .reveal-bottom-solar-system-why {
+  .reveal-left-airbreakswitches-why,
+  .reveal-right-airbreakswitches-why,
+  .reveal-top-airbreakswitches-why,
+  .reveal-bottom-airbreakswitches-why {
     opacity: 1 !important;
     transform: none !important;
     transition: none !important;
@@ -515,31 +515,31 @@ section[id] {
 
 /* ====== Responsive ====== */
 @media (max-width: 992px) {
-  .grid-solar-system-why {
+  .grid-airbreakswitches-why {
     grid-template-columns: repeat(2, 1fr);
   }
 
   /* tidy borders for 2-column layout */
-  .grid-solar-system-why>.card-solar-system-why {
+  .grid-airbreakswitches-why>.card-airbreakswitches-why {
     border-right: none;
     border-top: none;
   }
 
-  .grid-solar-system-why>.card-solar-system-why:nth-child(odd) {
+  .grid-airbreakswitches-why>.card-airbreakswitches-why:nth-child(odd) {
     border-right: 1px solid rgba(21, 94, 117, .15);
   }
 
-  .grid-solar-system-why>.card-solar-system-why:nth-child(n+3) {
+  .grid-airbreakswitches-why>.card-airbreakswitches-why:nth-child(n+3) {
     border-top: 1px solid rgba(21, 94, 117, .15);
   }
 }
 
 @media (max-width: 560px) {
-  .grid-solar-system-why {
+  .grid-airbreakswitches-why {
     grid-template-columns: 1fr;
   }
 
-  .grid-solar-system-why>.card-solar-system-why {
+  .grid-airbreakswitches-why>.card-airbreakswitches-why {
     border: none !important;
     padding: 14px 2px;
   }
@@ -570,20 +570,20 @@ body {
 }
 
 /* ===== Layout ===== */
-.section-about-lv-electrical-about- {
+.section-about-airbreakswitches-about- {
   background: #fff;
   padding: clamp(18px, 1vw, 20px) 0;
   padding-top: -40px;
 }
 
-.container-lv-electrical-about- {
+.container-airbreakswitches-about- {
   width: 100%;
   max-width: var(--container-w-lv);
   margin-inline: auto;
   padding-inline: clamp(16px, 3vw, 28px);
 }
 
-.grid-lv-electrical-about- {
+.grid-airbreakswitches-about- {
   display: grid;
   grid-template-columns: .4fr .6fr ;
   gap: clamp(16px, 3.8vw, 42px);
@@ -591,11 +591,11 @@ body {
 }
 
 /* ===== Media ===== */
-.media-lv-electrical-about- {
+.media-airbreakswitches-about- {
   margin: 0;
 }
 
-.img-lv-electrical-about- {
+.img-airbreakswitches-about- {
   width: 100%;
   height: auto;
   display: block;
@@ -605,11 +605,11 @@ body {
 }
 
 /* ===== Copy ===== */
-.copy-lv-electrical-about- {
+.copy-airbreakswitches-about- {
   color: var(--ink-lv);
 }
 
-.eyebrow-lv-electrical-about- {
+.eyebrow-airbreakswitches-about- {
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -619,24 +619,24 @@ body {
   margin-bottom: 6px;
 }
 
-.zap-lv-electrical-about- {
+.zap-airbreakswitches-about- {
   filter: drop-shadow(0 1px 0 rgba(0, 0, 0, .05));
 }
 
-.title-lv-electrical-about- {
+.title-airbreakswitches-about- {
   margin: 0 0 8px;
   font-weight: 800;
   font-size: clamp(22px, 2.4vw, 30px);
   color: var(--ink-lv);
 }
 
-.lead-lv-electrical-about- {
+.lead-airbreakswitches-about- {
   margin: 0 0 12px;
   color: var(--muted-lv);
   font-size: clamp(14px, 1.5vw, 16px);
 }
 
-.benefits-lv-electrical-about- {
+.benefits-airbreakswitches-about- {
   list-style: none;
   padding: 0;
   margin: 0 0 16px;
@@ -644,7 +644,7 @@ body {
   gap: 8px;
 }
 
-.benefits-lv-electrical-about- li {
+.benefits-airbreakswitches-about- li {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -652,7 +652,7 @@ body {
   font-weight: 600;
 }
 
-.dot-lv-electrical-about- {
+.dot-airbreakswitches-about- {
   width: 8px;
   height: 8px;
   border-radius: 999px;
@@ -661,7 +661,7 @@ body {
   box-shadow: 0 0 0 3px rgba(232, 91, 42, .15);
 }
 
-.btn-primary-lv-electrical-about- {
+.btn-primary-airbreakswitches-about- {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -674,14 +674,14 @@ body {
   transition: transform .2s ease, box-shadow .2s ease, filter .2s ease;
 }
 
-.btn-primary-lv-electrical-about-:hover {
+.btn-primary-airbreakswitches-about-:hover {
   transform: translateY(-2px);
   filter: brightness(1.05);
   background: #274b87;
 }
 
 /* ===== Rating Card ===== */
-.rating-card-lv-electrical-about- {
+.rating-card-airbreakswitches-about- {
   background: var(--panel-lv);
   border-radius: 12px;
   padding: clamp(14px, 2.6vw, 20px);
@@ -689,13 +689,13 @@ body {
   box-shadow: var(--shadow-soft-lv);
 }
 
-.score-lv-electrical-about- {
+.score-airbreakswitches-about- {
   font-size: clamp(28px, 3.4vw, 40px);
   font-weight: 900;
   color: #274b87;
 }
 
-.stars-lv-electrical-about- {
+.stars-airbreakswitches-about- {
   display: inline-flex;
   gap: 2px;
   font-size: 18px;
@@ -703,17 +703,17 @@ body {
   margin: 6px 0 4px;
 }
 
-.stars-lv-electrical-about- span {
+.stars-airbreakswitches-about- span {
   color: #f59e0b;
 }
 
 /* gold */
-.half-lv-electrical-about- {
+.half-airbreakswitches-about- {
   color: #f59e0b;
   opacity: .5;
 }
 
-.rating-note-lv-electrical-about- {
+.rating-note-airbreakswitches-about- {
   margin: 0;
   color: #6b7a8c;
   font-size: 12px;
@@ -721,43 +721,43 @@ body {
 }
 
 /* ===== Reveal animation ===== */
-.reveal-lv-electrical-about- {
+.reveal-airbreakswitches-about- {
   opacity: 0;
   transform: translateY(18px);
   transition: opacity .7s ease, transform .7s ease;
 }
 
-.reveal-in-lv-electrical-about- {
+.reveal-in-airbreakswitches-about- {
   opacity: 1 !important;
   transform: translateY(0) !important;
 }
 
 /* ===== Responsive ===== */
 @media (max-width: 1024px) {
-  .grid-lv-electrical-about- {
+  .grid-airbreakswitches-about- {
     grid-template-columns: 1fr 1fr;
   }
 
-  .rating-card-lv-electrical-about- {
+  .rating-card-airbreakswitches-about- {
     order: 3;
   }
-    .section-about-lv-electrical-about-{
+    .section-about-airbreakswitches-about-{
     padding-top: -40px;
   }
 }
 
 @media (max-width: 680px) {
-  .grid-lv-electrical-about- {
+  .grid-airbreakswitches-about- {
     grid-template-columns: 1fr;
   }
-  .section-about-lv-electrical-about-{
+  .section-about-airbreakswitches-about-{
     padding-top: 40px;
   }
-  .section-about-lv-electrical-about-{
+  .section-about-airbreakswitches-about-{
     padding-top: 40px;
   }
 
-  .rating-card-lv-electrical-about- {
+  .rating-card-airbreakswitches-about- {
     max-width: 360px;
   }
 }
@@ -779,7 +779,7 @@ body {
 }
 
 /* =============== HERO / IMAGE STRIP =============== */
-.section-services-lv-electrical-services {
+.section-services-airbreakswitches-services {
   position: relative;
   color: var(--white-lv);
   /* room for heading row; bottom padding is small because the card will overlap */
@@ -794,7 +794,7 @@ body {
   min-height: clamp(280px, 45vh, 520px);
 }
 
-.section-services-lv-electrical-services::before {
+.section-services-airbreakswitches-services::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -804,7 +804,7 @@ body {
 }
 
 /* ===== Header Row ===== */
-.services-head-lv-electrical-services {
+.services-head-airbreakswitches-services {
   position: relative;
   z-index: 1;
   max-width: var(--container-w-lv);
@@ -816,7 +816,7 @@ body {
   gap: 16px;
 }
 
-.eyebrow-lv-electrical-services {
+.eyebrow-airbreakswitches-services {
   display: inline-block;
   color: #f0a38b;
   font-weight: 800;
@@ -825,14 +825,14 @@ body {
   margin-bottom: 6px;
 }
 
-.title-lv-electrical-services {
+.title-airbreakswitches-services {
   margin: 0;
   font-weight: 800;
   font-size: clamp(22px, 3vw, 34px);
   line-height: 1.2;
 }
 
-.btn-orange-lv-electrical-services {
+.btn-orange-airbreakswitches-services {
   align-self: start;
   background: var(--cta-orange-lv);
   color: #fff;
@@ -844,7 +844,7 @@ body {
   transition: transform .2s ease, filter .2s ease, background .2s ease;
 }
 
-.btn-orange-lv-electrical-services:hover {
+.btn-orange-airbreakswitches-services:hover {
   transform: translateY(-2px);
   filter: brightness(1.05);
   background: var(--brand-blue-lv);
@@ -852,7 +852,7 @@ body {
 
 /* =============== OVERLAP SECTION (WHITE CARD) =============== */
 /* This is your second <section>. It pulls upward by the overlap distance. */
-.section-services-lv-electrical-services2 {
+.section-services-airbreakswitches-services2 {
   position: relative;
   margin-top: calc(-1 * var(--services-overlap));
   /* keep stacking context tidy */
@@ -861,14 +861,14 @@ body {
 }
 
 /* Wrapper that centers the card and adds side padding */
-.services-card-lv-electrical-services {
+.services-card-airbreakswitches-services {
   max-width: var(--container-w-lv);
   margin: 0 auto;
   padding: 0 clamp(16px, 1vw, 28px);
 }
 
 /* The white card */
-.grid-lv-electrical-services {
+.grid-airbreakswitches-services {
   background: #fff;
   border: 1px solid var(--panel-border-lv);
   /* border-radius: 18px; */
@@ -879,19 +879,19 @@ body {
 }
 
 /* Thin dividers between columns on desktop */
-.grid-lv-electrical-services>.svc-item-lv-electrical-services:not(:last-child) {
+.grid-airbreakswitches-services>.svc-item-airbreakswitches-services:not(:last-child) {
   border-right: 1px solid var(--panel-border-lv);
 }
 
 /* =============== SERVICE ITEM =============== */
-.svc-item-lv-electrical-services {
+.svc-item-airbreakswitches-services {
   padding: clamp(18px, 3vw, 26px);
   display: grid;
   grid-template-rows: auto auto 1fr auto;
   gap: 10px;
 }
 
-.svc-icon-lv-electrical-services {
+.svc-icon-airbreakswitches-services {
   width: 28px;
   height: 28px;
   display: grid;
@@ -899,38 +899,38 @@ body {
   color: #1f2937;
 }
 
-.svc-icon-lv-electrical-services i {
+.svc-icon-airbreakswitches-services i {
   font-size: 22px;
 }
 
-.svc-title-lv-electrical-services {
+.svc-title-airbreakswitches-services {
   margin: 0;
   font-size: clamp(16px, 1.8vw, 18px);
   font-weight: 800;
   color: var(--ink-lv);
 }
 
-.svc-title-lv-electrical-services a {
+.svc-title-airbreakswitches-services a {
   color: inherit;
   text-decoration: none;
 }
 
-.svc-title-lv-electrical-services a:hover {
+.svc-title-airbreakswitches-services a:hover {
   text-decoration: underline;
 }
 
-.svc-text-lv-electrical-services {
+.svc-text-airbreakswitches-services {
   margin: 0;
   color: var(--muted-lv);
   font-size: 14px;
 }
 
-/* .arrow-lv-electrical-services{ font-weight: 800; } */
+/* .arrow-airbreakswitches-services{ font-weight: 800; } */
 
 /* =============== SCROLL REVEAL (optional) =============== */
-.reveal-left-lv-electrical-services,
-.reveal-right-lv-electrical-services,
-.reveal-up-lv-electrical-services {
+.reveal-left-airbreakswitches-services,
+.reveal-right-airbreakswitches-services,
+.reveal-up-airbreakswitches-services {
   opacity: 0;
   transform: translateY(14px);
   transition: opacity .7s cubic-bezier(.2, .65, .2, 1),
@@ -938,37 +938,37 @@ body {
   will-change: opacity, transform;
 }
 
-.reveal-left-lv-electrical-services {
+.reveal-left-airbreakswitches-services {
   transform: translateX(-28px);
 }
 
-.reveal-right-lv-electrical-services {
+.reveal-right-airbreakswitches-services {
   transform: translateX(28px);
 }
 
-.reveal-in-lv-electrical-services {
+.reveal-in-airbreakswitches-services {
   opacity: 1 !important;
   transform: translateX(0) translateY(0) !important;
 }
 
 /* =============== RESPONSIVE =============== */
 @media (max-width: 1024px) {
-  .services-head-lv-electrical-services {
+  .services-head-airbreakswitches-services {
     grid-template-columns: 1fr;
     row-gap: 12px;
   }
 
-  .btn-orange-lv-electrical-services {
+  .btn-orange-airbreakswitches-services {
     justify-self: start;
   }
 
-  .grid-lv-electrical-services {
+  .grid-airbreakswitches-services {
     grid-template-columns: 1fr;
     /* stack cards */
     /* border-radius: 14px; */
   }
 
-  .grid-lv-electrical-services>.svc-item-lv-electrical-services:not(:last-child) {
+  .grid-airbreakswitches-services>.svc-item-airbreakswitches-services:not(:last-child) {
     border-right: none;
     border-bottom: 1px solid var(--panel-border-lv);
   }
@@ -981,7 +981,7 @@ body {
     --services-overlap: clamp(20px, 7vw, 40px);
   }
 
-  .section-services-lv-electrical-services {
+  .section-services-airbreakswitches-services {
     padding-bottom: clamp(28px, 5vw, 40px);
     min-height: clamp(260px, 40vh, 420px);
     background-position: center;
@@ -992,9 +992,9 @@ body {
 /* Respect reduced motion */
 @media (prefers-reduced-motion: reduce) {
 
-  .reveal-left-lv-electrical-services,
-  .reveal-right-lv-electrical-services,
-  .reveal-up-lv-electrical-services {
+  .reveal-left-airbreakswitches-services,
+  .reveal-right-airbreakswitches-services,
+  .reveal-up-airbreakswitches-services {
     opacity: 1 !important;
     transform: none !important;
     transition: none !important;
@@ -1014,7 +1014,7 @@ body {
 }
 
 /* Details row spans full grid width and keeps your flat style */
-.svc-detail-lv-electrical-services {
+.svc-detail-airbreakswitches-services {
   grid-column: 1 / -1;
   display: none;
   background: #fff;
@@ -1037,14 +1037,14 @@ body {
 }
 
 /* Detail content layout */
-.svc-detail-lv-electrical-services h3 {
+.svc-detail-airbreakswitches-services h3 {
   margin: 0 0 6px 0;
   font-size: clamp(16px, 1.8vw, 20px);
   font-weight: 800;
   color: var(--ink-lv);
 }
 
-.svc-detail-lv-electrical-services p {
+.svc-detail-airbreakswitches-services p {
   margin: 0 0 10px 0;
   color: var(--muted-lv);
   font-size: 14px;
@@ -1061,9 +1061,9 @@ body {
 }
 
 /* Re-animate on scroll up/down (toggle reveal-in when entering/leaving) */
-.reveal-left-lv-electrical-services,
-.reveal-right-lv-electrical-services,
-.reveal-up-lv-electrical-services {
+.reveal-left-airbreakswitches-services,
+.reveal-right-airbreakswitches-services,
+.reveal-up-airbreakswitches-services {
   opacity: 0;
   transform: translateY(14px);
   transition: opacity .7s cubic-bezier(.2, .65, .2, 1),
@@ -1071,21 +1071,21 @@ body {
   will-change: opacity, transform;
 }
 
-.reveal-left-lv-electrical-services {
+.reveal-left-airbreakswitches-services {
   transform: translateX(-28px);
 }
 
-.reveal-right-lv-electrical-services {
+.reveal-right-airbreakswitches-services {
   transform: translateX(28px);
 }
 
-.reveal-in-lv-electrical-services {
+.reveal-in-airbreakswitches-services {
   opacity: 1 !important;
   transform: translateX(0) translateY(0) !important;
 }
 
 /* Floating Explore/View Less button */
-.btn-fab-lv-electrical-services {
+.btn-fab-airbreakswitches-services {
   position: fixed;
   right: clamp(2px, 1vw, 2px);
   bottom: clamp(2px, 1vw, 2px);
@@ -1104,7 +1104,7 @@ body {
   transition: transform .2s ease, filter .2s ease, background .2s ease;
 }
 
-.btn-fab-lv-electrical-services:hover {
+.btn-fab-airbreakswitches-services:hover {
   transform: translateY(-2px);
   filter: brightness(1.05);
   background: var(--brand-blue-lv);
@@ -1112,13 +1112,13 @@ body {
 
 /* If users prefer reduced motion, keep it steady */
 @media (prefers-reduced-motion: reduce) {
-  .btn-fab-lv-electrical-services {
+  .btn-fab-airbreakswitches-services {
     transition: none;
   }
 }
 
 /* makes the header (with the button) stick to the top */
-.services-head-lv-electrical-services {
+.services-head-airbreakswitches-services {
   position: sticky;
   top: 0;
   z-index: 5;
@@ -1138,14 +1138,14 @@ body {
 }
 
 /* ===== section wrapper ===== */
-.section-process-lv-electrical-process {
+.section-process-airbreakswitches-process {
   background: #fff;
   padding: clamp(16px, 1vw, 30px) 0;
   /* max-width: 1100px; */
 }
 
 
-.grid-lv-electrical-process {
+.grid-airbreakswitches-process {
   /* display: grid; */
   /* grid-template-columns: 1.05fr 1fr; */
   gap: clamp(18px, 1vw, 44px);
@@ -1153,11 +1153,11 @@ body {
 }
 
 /* ===== left column ===== */
-.media-lv-electrical-process {
+.media-airbreakswitches-process {
   margin: 0 0 clamp(12px, 1vw, 16px);
 }
 
-.img-lv-electrical-process {
+.img-airbreakswitches-process {
   width: 100%;
   height: auto;
   display: block;
@@ -1166,7 +1166,7 @@ body {
   box-shadow: var(--shadow-soft-lv);
 }
 
-.eyebrow-lv-electrical-process {
+.eyebrow-airbreakswitches-process {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -1176,36 +1176,36 @@ body {
   margin: 6px 0;
 }
 
-.bolt-icon-lv-electrical-process {
+.bolt-icon-airbreakswitches-process {
   width: 16px;
   height: 16px;
   object-fit: contain;
   display: inline-block;
 }
 
-.title-lv-electrical-process {
+.title-airbreakswitches-process {
   margin: 4px 0 8px;
   font-weight: 800;
   font-size: clamp(22px, 2.6vw, 30px);
   color: var(--ink-lv);
 }
 
-.lead-lv-electrical-process {
+.lead-airbreakswitches-process {
   margin: 0 0 14px;
   color: var(--muted-lv);
   font-size: clamp(14px, 1.6vw, 16px);
   /* max-width: 56ch; */
 }
 
-/* NOTE: the button uses .btn-orange-lv-electrical-services from your existing CSS */
+/* NOTE: the button uses .btn-orange-airbreakswitches-services from your existing CSS */
 
 /* ===== right column: vertical timeline ===== */
-.timeline-lv-electrical-process {
+.timeline-airbreakswitches-process {
   position: relative;
   /* background: #fff; */
 }
 
-.timeline-list-lv-electrical-process {
+.timeline-list-airbreakswitches-process {
   list-style: none;
   padding-top: 20px;
   margin-top: 20px;
@@ -1213,7 +1213,7 @@ body {
 }
 
 /* Vertical line */
-.timeline-list-lv-electrical-process::before {
+.timeline-list-airbreakswitches-process::before {
   content: "";
   position: absolute;
   left: 20px;
@@ -1226,7 +1226,7 @@ body {
 }
 
 /* Step row */
-.timeline-item-lv-electrical-process {
+.timeline-item-airbreakswitches-process {
   position: relative;
   display: grid;
   grid-template-columns: 48px 1fr;
@@ -1236,7 +1236,7 @@ body {
 }
 
 /* Icon bubble */
-.step-icon-lv-electrical-process {
+.step-icon-airbreakswitches-process {
   width: 60px;
   height: 60px;
   border-radius: 999px;
@@ -1249,7 +1249,7 @@ body {
   z-index: 1;
 }
 
-.step-icon-lv-electrical-process img {
+.step-icon-airbreakswitches-process img {
   width: 25px;
   height: 25px;
   object-fit: contain;
@@ -1259,23 +1259,23 @@ body {
 }
 
 /* Content */
-.step-content-lv-electrical-process {
+.step-content-airbreakswitches-process {
   padding-bottom: 10px;
   border-bottom: 1px dashed #d5deea;
 }
 
-.timeline-item-lv-electrical-process:last-child .step-content-lv-electrical-process {
+.timeline-item-airbreakswitches-process:last-child .step-content-airbreakswitches-process {
   border-bottom: 0;
 }
 
-.step-title-lv-electrical-process {
+.step-title-airbreakswitches-process {
   margin: 2px 0 4px;
   font-weight: 800;
   color: var(--ink-lv);
   font-size: clamp(16px, 1.8vw, 18px);
 }
 
-.step-text-lv-electrical-process {
+.step-text-airbreakswitches-process {
   margin: 0;
   color: var(--muted-lv);
   font-size: 14px;
@@ -1283,8 +1283,8 @@ body {
 }
 
 /* ===== reveal on scroll ===== */
-.reveal-left-lv-electrical-process,
-.reveal-right-lv-electrical-process {
+.reveal-left-airbreakswitches-process,
+.reveal-right-airbreakswitches-process {
   opacity: 0;
   transform: translateX(-24px);
   transition: opacity .7s cubic-bezier(.2, .65, .2, 1),
@@ -1292,28 +1292,28 @@ body {
   will-change: opacity, transform;
 }
 
-.reveal-right-lv-electrical-process {
+.reveal-right-airbreakswitches-process {
   transform: translateX(24px);
 }
 
-.reveal-in-lv-electrical-process {
+.reveal-in-airbreakswitches-process {
   opacity: 1 !important;
   transform: none !important;
 }
 
 /* ===== responsive ===== */
 @media (max-width: 1024px) {
-  .grid-lv-electrical-process {
+  .grid-airbreakswitches-process {
     grid-template-columns: 1fr;
   }
 
-  .timeline-list-lv-electrical-process::before {
+  .timeline-list-airbreakswitches-process::before {
     left: 20px;
   }
 }
 
 @media (max-width: 560px) {
-  .timeline-item-lv-electrical-process {
+  .timeline-item-airbreakswitches-process {
     grid-template-columns: 44px 1fr;
   }
 }
@@ -1321,8 +1321,8 @@ body {
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
 
-  .reveal-left-lv-electrical-process,
-  .reveal-right-lv-electrical-process {
+  .reveal-left-airbreakswitches-process,
+  .reveal-right-airbreakswitches-process {
     opacity: 1 !important;
     transform: none !important;
     transition: none !important;
@@ -1580,7 +1580,7 @@ body {
 }
 
 /* ===== Details layout with optional image ===== */
-.svc-detail-lv-electrical-services {
+.svc-detail-airbreakswitches-services {
   grid-column: 1 / -1;
   display: none;
   background: #fff;
@@ -1601,7 +1601,7 @@ body {
   }
 }
 
-.svc-detail-lv-electrical-services {
+.svc-detail-airbreakswitches-services {
   grid-column: 1 / -1;
   display: none;
   background: #fff;
@@ -1680,7 +1680,7 @@ body {
 }
 
 /* Compact CTA button */
-.svc-cta-lv-electrical-services {
+.svc-cta-airbreakswitches-services {
   position: relative;
   align-self: end;
   justify-self: start;
@@ -1702,7 +1702,7 @@ body {
 }
 
 /* default arrow */
-.arrow-lv-electrical-services {
+.arrow-airbreakswitches-services {
   font-weight: 800;
   font-size: 18px;
   line-height: 1;
@@ -1710,7 +1710,7 @@ body {
 }
 
 /* hidden label that slides in on hover */
-.svc-cta-lv-electrical-services::after {
+.svc-cta-airbreakswitches-services::after {
   /* content: "Learn More"; */
   white-space: nowrap;
   /* keep on one line */
@@ -1722,37 +1722,37 @@ body {
 }
 
 /* hover: turn blue and show label */
-.svc-cta-lv-electrical-services:hover {
+.svc-cta-airbreakswitches-services:hover {
   background: var(--brand-blue-lv);
   color: #fff;
   border-color: var(--brand-blue-lv);
 }
 
-.svc-cta-lv-electrical-services:hover .arrow-lv-electrical-services {
+.svc-cta-airbreakswitches-services:hover .arrow-airbreakswitches-services {
   transform: translateX(4px);
 }
 
-.svc-cta-lv-electrical-services:hover::after {
+.svc-cta-airbreakswitches-services:hover::after {
   opacity: 1;
   transform: translateX(0);
 }
 
 /* keyboard focus */
-.svc-cta-lv-electrical-services:focus-visible {
+.svc-cta-airbreakswitches-services:focus-visible {
   outline: 3px solid #ffb26b;
   outline-offset: 2px;
 }
 
 /* optional: make it full-width on very small screens */
 @media (max-width: 560px) {
-  .svc-cta-lv-electrical-services {
+  .svc-cta-airbreakswitches-services {
     width: 100%;
     justify-content: center;
   }
 }
 
 /* --- MODAL (gated docs) --- */
-.modal-csc-solar-system-csc-products {
+.modal-csc-airbreakswitches-csc-products {
   position: fixed;
   /* cover the whole viewport */
   inset: 0;
@@ -1762,11 +1762,11 @@ body {
   /* sit above everything */
 }
 
-.modal-csc-solar-system-csc-products[aria-hidden="false"] {
+.modal-csc-airbreakswitches-csc-products[aria-hidden="false"] {
   display: block;
 }
 
-.modal-backdrop-csc-solar-system-csc-products {
+.modal-backdrop-csc-airbreakswitches-csc-products {
   position: absolute;
   inset: 0;
   /* dim + blur the entire page behind the modal */
@@ -1777,7 +1777,7 @@ body {
   z-index: 0;
 }
 
-.modal-dialog-csc-solar-system-csc-products {
+.modal-dialog-csc-airbreakswitches-csc-products {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -1791,7 +1791,7 @@ body {
   /* above backdrop */
 }
 
-.modal-close-csc-solar-system-csc-products {
+.modal-close-csc-airbreakswitches-csc-products {
   position: absolute;
   top: 10px;
   right: 12px;
@@ -1839,20 +1839,20 @@ body.modal-open {
 }
 
 /* ====== Section wrapper ====== */
-.section-lv-electrical-get-in-touch {
+.section-airbreakswitches-get-in-touch {
   background: var(--bg-dark-lv);
   /* full-width behind stats */
   padding: 0 0 clamp(18px, 1vw, 10px);
 }
 
 /* consistent container */
-.container-lv-electrical-get-in-touch {
+.container-airbreakswitches-get-in-touch {
   width: min(82vw,800px);
   margin-inline: auto;
 }
 
 /* ====== Stats strip ====== */
-.stats-wrap-lv-electrical-get-in-touch {
+.stats-wrap-airbreakswitches-get-in-touch {
   background: #0b1220;
   padding-top: var(--stats-pad-top);
   /* add overlap space so card can rise into the band cleanly */
@@ -1861,41 +1861,41 @@ body.modal-open {
   z-index: 1;
 }
 
-.stats-grid-lv-electrical-get-in-touch {
+.stats-grid-airbreakswitches-get-in-touch {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: clamp(12px, 2.8vw, 34px);
   align-items: center;
 }
 
-.stat-lv-electrical-get-in-touch {
+.stat-airbreakswitches-get-in-touch {
   color: #e8edf7;
   padding: clamp(8px, 1.4vw, 12px) 0;
   border-right: 1px solid rgba(255, 255, 255, .12);
 }
 
-.stat-lv-electrical-get-in-touch:last-child {
+.stat-airbreakswitches-get-in-touch:last-child {
   border-right: 0;
 }
 
-.stat-num-lv-electrical-get-in-touch {
+.stat-num-airbreakswitches-get-in-touch {
   font-weight: 900;
   font-size: clamp(28px, 4.6vw, 54px);
   line-height: 1;
 }
 
-.stat-num-lv-electrical-get-in-touch::after {
+.stat-num-airbreakswitches-get-in-touch::after {
   content: attr(data-suffix);
 }
 
-.stat-label-lv-electrical-get-in-touch {
+.stat-label-airbreakswitches-get-in-touch {
   color: rgba(255, 255, 255, .8);
   font-size: clamp(12px, 1.6vw, 14px);
   margin-top: 6px;
 }
 
 /* ====== Overlapping card (inside the next container) ====== */
-.card-lv-electrical-get-in-touch {
+.card-airbreakswitches-get-in-touch {
   position: relative;
   z-index: 2;
   /* above the stats band */
@@ -1911,21 +1911,21 @@ body.modal-open {
 }
 
 /* Media side */
-.media-lv-electrical-get-in-touch {
+.media-airbreakswitches-get-in-touch {
   position: relative;
   margin: 0;
   background: #0d1726;
   min-height: 260px;
 }
 
-.media-lv-electrical-get-in-touch img {
+.media-airbreakswitches-get-in-touch img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.phone-badge-lv-electrical-get-in-touch {
+.phone-badge-airbreakswitches-get-in-touch {
   position: absolute;
   left: clamp(12px, 2vw, 18px);
   bottom: clamp(12px, 2vw, 18px);
@@ -1939,7 +1939,7 @@ body.modal-open {
   border-radius: 12px;
 }
 
-.badge-icon-lv-electrical-get-in-touch {
+.badge-icon-airbreakswitches-get-in-touch {
   display: grid;
   place-items: center;
   width: 34px;
@@ -1949,24 +1949,24 @@ body.modal-open {
   font-size: 18px;
 }
 
-.badge-text-lv-electrical-get-in-touch {
+.badge-text-airbreakswitches-get-in-touch {
   font-size: 13px;
   line-height: 1.25;
 }
 
 /* Content side */
-.content-lv-electrical-get-in-touch {
+.content-airbreakswitches-get-in-touch {
   padding: clamp(18px, 1vw, 36px);
 }
 
-.eyebrow-lv-electrical-get-in-touch {
+.eyebrow-airbreakswitches-get-in-touch {
   color: var(--brand-blue-lv);
   font-weight: 800;
   font-size: 13px;
   text-decoration: none;
 }
 
-.title-lv-electrical-get-in-touch {
+.title-airbreakswitches-get-in-touch {
   margin: 6px 0 8px;
   color: var(--ink-lv);
   font-weight: 900;
@@ -1974,14 +1974,14 @@ body.modal-open {
   font-size: clamp(22px, 3.6vw, 34px);
 }
 
-.sub-lv-electrical-get-in-touch {
+.sub-airbreakswitches-get-in-touch {
   color: var(--muted-lv);
   margin: 0 0 16px;
   font-size: clamp(14px, 1.8vw, 16px);
   line-height: 1.7;
 }
 
-.btn-primary-lv-electrical-get-in-touch {
+.btn-primary-airbreakswitches-get-in-touch {
   display: inline-block;
   background: var(--cta-orange-lv);
   color: #fff;
@@ -1992,13 +1992,13 @@ body.modal-open {
   transition: transform .18s ease, filter .18s ease;
 }
 
-.btn-primary-lv-electrical-get-in-touch:hover {
+.btn-primary-airbreakswitches-get-in-touch:hover {
   transform: translateY(-2px);
   filter: brightness(1.03);
 }
 
 /* ====== Reveal variants (same as before) ====== */
-.reveal-lv-electrical-get-in-touch {
+.reveal-airbreakswitches-get-in-touch {
   opacity: 0;
   transform: translateY(18px);
   transition: opacity .7s cubic-bezier(.2, .65, .2, 1),
@@ -2007,21 +2007,21 @@ body.modal-open {
   transition-delay: var(--rv-delay, 0ms);
 }
 
-.reveal-left-lv-electrical-get-in-touch {
+.reveal-left-airbreakswitches-get-in-touch {
   transform: translateX(-28px);
 }
 
-.reveal-right-lv-electrical-get-in-touch {
+.reveal-right-airbreakswitches-get-in-touch {
   transform: translateX(28px);
 }
 
-.reveal-lv-electrical-get-in-touch.in-view {
+.reveal-airbreakswitches-get-in-touch.in-view {
   opacity: 1;
   transform: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .reveal-lv-electrical-get-in-touch {
+  .reveal-airbreakswitches-get-in-touch {
     transition: none !important;
     transform: none !important;
     opacity: 1 !important;
@@ -2030,30 +2030,30 @@ body.modal-open {
 
 /* ====== Responsive grid ====== */
 @media (max-width: 1024px) {
-  .stats-grid-lv-electrical-get-in-touch {
+  .stats-grid-airbreakswitches-get-in-touch {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .stat-lv-electrical-get-in-touch:nth-child(2) {
+  .stat-airbreakswitches-get-in-touch:nth-child(2) {
     border-right: 0;
   }
 
-  .card-lv-electrical-get-in-touch {
+  .card-airbreakswitches-get-in-touch {
     grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 560px) {
-  .stats-grid-lv-electrical-get-in-touch {
+  .stats-grid-airbreakswitches-get-in-touch {
     grid-template-columns: 1fr;
   }
 
-  .stat-lv-electrical-get-in-touch {
+  .stat-airbreakswitches-get-in-touch {
     border-right: 0;
     border-bottom: 1px solid rgba(255, 255, 255, .12);
   }
 
-  .stat-lv-electrical-get-in-touch:last-child {
+  .stat-airbreakswitches-get-in-touch:last-child {
     border-bottom: 0;
   }
 }
@@ -2065,7 +2065,7 @@ body.modal-open {
 }
 
 /* Use a background gradient so the area below the stats is white */
-.section-lv-electrical-get-in-touch {
+.section-airbreakswitches-get-in-touch {
   background: linear-gradient(to bottom,
       #0b1220 0,
       #0b1220 var(--band-fill-lv),
@@ -2077,21 +2077,21 @@ body.modal-open {
 }
 
 /* Keep the stats band padding as you like, but add overlap space cleanly */
-.stats-wrap-lv-electrical-get-in-touch {
+.stats-wrap-airbreakswitches-get-in-touch {
   padding-top: var(--stats-pad-top);
   padding-bottom: calc(var(--stats-pad-btm) + var(--overlap-lv));
 }
 
 /* Stronger/cleaner separator like screenshot 2 */
-.stats-grid-lv-electrical-get-in-touch {
+.stats-grid-airbreakswitches-get-in-touch {
   align-items: center;
 }
 
-.stat-lv-electrical-get-in-touch {
+.stat-airbreakswitches-get-in-touch {
   border-right: 1px solid rgba(255, 255, 255, .18);
 }
 
-.stat-lv-electrical-get-in-touch:last-child {
+.stat-airbreakswitches-get-in-touch:last-child {
   border-right: 0;
 }
 
@@ -2102,57 +2102,57 @@ body.modal-open {
 }
 
 /* Smaller radius and a bit stronger shadow like the reference */
-.card-lv-electrical-get-in-touch {
+.card-airbreakswitches-get-in-touch {
   transform: translateY(calc(-1 * var(--overlap-lv)));
   border-radius: 10px;
   box-shadow: 0 14px 36px rgba(0, 0, 0, .14);
 }
 
 /* Reduce right column padding so the white box doesn’t look too roomy */
-.content-lv-electrical-get-in-touch {
+.content-airbreakswitches-get-in-touch {
   padding: clamp(16px, 1.3vw, 28px);
 }
 
-.title-lv-electrical-get-in-touch {
+.title-airbreakswitches-get-in-touch {
   margin: 4px 0 10px;
 }
 
-.sub-lv-electrical-get-in-touch {
+.sub-airbreakswitches-get-in-touch {
   margin-bottom: 14px;
 }
 
 /* Make the image a touch taller so the left/right look balanced */
-.media-lv-electrical-get-in-touch {
+.media-airbreakswitches-get-in-touch {
   min-height: clamp(260px, 34vw, 360px);
 }
 
 /* ===== Phone badge: make it tighter (less tall) ===== */
-.phone-badge-lv-electrical-get-in-touch {
+.phone-badge-airbreakswitches-get-in-touch {
   padding: 8px 12px;
   /* was 12px 18px */
   gap: 8px;
   border-radius: 10px;
 }
 
-.badge-icon-lv-electrical-get-in-touch {
+.badge-icon-airbreakswitches-get-in-touch {
   width: 28px;
   height: 28px;
   /* was 34px */
   font-size: 16px;
 }
 
-.badge-text-lv-electrical-get-in-touch {
+.badge-text-airbreakswitches-get-in-touch {
   font-size: 12px;
   /* was 13px */
   line-height: 1.2;
 }
 
-.badge-text-lv-electrical-get-in-touch strong {
+.badge-text-airbreakswitches-get-in-touch strong {
   font-size: 13px;
 }
 
 /* Button a bit smaller like the mock */
-.btn-primary-lv-electrical-get-in-touch {
+.btn-primary-airbreakswitches-get-in-touch {
   padding: 10px 14px;
   border-radius: 6px;
 }
@@ -2163,7 +2163,7 @@ body.modal-open {
     --overlap-lv: 64px;
   }
 
-  .media-lv-electrical-get-in-touch {
+  .media-airbreakswitches-get-in-touch {
     min-height: 300px;
   }
 }
@@ -2173,11 +2173,11 @@ body.modal-open {
     --overlap-lv: 0px;
   }
 
-  .media-lv-electrical-get-in-touch {
+  .media-airbreakswitches-get-in-touch {
     min-height: 220px;
   }
 
-  .phone-badge-lv-electrical-get-in-touch {
+  .phone-badge-airbreakswitches-get-in-touch {
     left: 10px;
     bottom: 10px;
     padding: 7px 10px;
@@ -2269,7 +2269,7 @@ body.modal-open {
 }
 
 /* Remove top/bottom padding completely */
-.section-process-lv-electrical-process {
+.section-process-airbreakswitches-process {
   background: #fff;
   /* remove extra top/bottom margin */
 }
@@ -2277,7 +2277,7 @@ body.modal-open {
 /* Ensure container sits flush with section edges */
 
 /* Tighten grid spacing */
-.grid-lv-electrical-process {
+.grid-airbreakswitches-process {
   /* display: grid; */
   /* grid-template-columns: 1.05fr 1fr; */
   /* gap: 20px; */
@@ -2312,7 +2312,7 @@ section+section {
 }
 
 /* ---------- Section ---------- */
-.lv-electric-panel-project {
+.airbreakswitches-project {
   background: var(--lv-bg);
   color: var(--lv-ink);
   padding: clamp(20px, 1vw, 18px) 16px;
@@ -2322,7 +2322,7 @@ section+section {
   justify-content: center;
 }
 
-.lv-epp-container {
+.airbreakswitches-card-container {
   max-width: 1180px;
   width: 100%;
   margin: 0 auto;
@@ -2333,13 +2333,13 @@ section+section {
   align-items: center;
 }
 
-.lv-epp-header {
+.airbreakswitches-card-header {
   margin-bottom: 26px;
   width: 100%;
   text-align: center;
 }
 
-.lv-epp-kicker {
+.airbreakswitches-card-kicker {
   display: inline-block;
   font: 600 12px/1.1 system-ui, Segoe UI, Roboto, Arial, sans-serif;
   letter-spacing: .12em;
@@ -2350,13 +2350,13 @@ section+section {
   border-radius: 999px;
 }
 
-.lv-epp-header h2 {
+.airbreakswitches-card-header h2 {
   margin: 12px 0 0;
   font: 700 clamp(22px, 3.5vw, 34px)/1.25 system-ui, Segoe UI, Roboto, Arial, sans-serif;
 }
 
 /* ---------- Grid ---------- */
-.lv-epp-grid {
+.airbreakswitches-card-grid {
   width: 100%;
   margin-top: 16px;
 
@@ -2370,19 +2370,19 @@ section+section {
 }
 
 @media (max-width:1024px) {
-  .lv-epp-grid {
+  .airbreakswitches-card-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 }
 
 @media (max-width:640px) {
-  .lv-epp-grid {
+  .airbreakswitches-card-grid {
     grid-template-columns: minmax(0, 520px);
   }
 }
 
 /* ---------- Card ---------- */
-.lv-epp-card {
+.airbreakswitches-card-card {
   background: var(--lv-card-bg);
   border: 1px solid var(--lv-border);
   border-radius: var(--lv-radius);
@@ -2395,19 +2395,19 @@ section+section {
   width: 100%;
 }
 
-.lv-epp-card:hover {
+.airbreakswitches-card-card:hover {
   transform: translateY(-6px);
   box-shadow: var(--lv-shadow);
   border-color: #ffd7aa;
 }
 
-.lv-epp-media {
+.airbreakswitches-card-media {
   position: relative;
   aspect-ratio: 16/9;
   overflow: hidden;
 }
 
-.lv-epp-media img {
+.airbreakswitches-card-media img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -2416,11 +2416,11 @@ section+section {
   transition: transform .5s ease;
 }
 
-.lv-epp-card:hover .lv-epp-media img {
+.airbreakswitches-card-card:hover .airbreakswitches-card-media img {
   transform: scale(1.06);
 }
 
-.lv-epp-year {
+.airbreakswitches-card-year {
   position: absolute;
   inset: 14px auto auto 14px;
   background: linear-gradient(135deg, var(--lv-orange), var(--lv-orange-400));
@@ -2432,34 +2432,34 @@ section+section {
   box-shadow: 0 6px 18px rgba(0, 0, 0, .18);
 }
 
-.lv-epp-body {
+.airbreakswitches-card-body {
   padding: 18px 18px 20px;
   color: var(--lv-ink);
 }
 
-.lv-epp-body h3 {
+.airbreakswitches-card-body h3 {
   margin: 2px 0 8px;
   font: 700 18px/1.35 system-ui, Segoe UI, Roboto, Arial, sans-serif;
 }
 
-.lv-epp-client {
+.airbreakswitches-card-client {
   color: var(--lv-muted);
   margin: 0 0 10px;
   font-size: 14px;
 }
 
-.lv-epp-points {
+.airbreakswitches-card-points {
   margin: 0;
   padding: 0 0 0 18px;
   color: #253048;
 }
 
-.lv-epp-points li {
+.airbreakswitches-card-points li {
   margin: 6px 0;
 }
 
 /* ---------- More button ---------- */
-.lv-epp-more-wrap {
+.airbreakswitches-card-more-wrap {
   grid-column: 1 / -1;
   display: flex;
   justify-content: center;
@@ -2467,7 +2467,7 @@ section+section {
   padding: 8px 0 6px;
 }
 
-.lv-epp-more {
+.airbreakswitches-card-more {
   border: 0;
   cursor: pointer;
   color: #3a2002;
@@ -2479,13 +2479,13 @@ section+section {
   transition: transform .25s ease, box-shadow .25s ease, filter .2s ease;
 }
 
-.lv-epp-more:hover {
+.airbreakswitches-card-more:hover {
   transform: translateY(-2px);
   box-shadow: 0 14px 28px rgba(234, 88, 12, .30);
   background: linear-gradient(135deg, #fdba74, #fb923c);
 }
 
-.lv-epp-more:active {
+.airbreakswitches-card-more:active {
   transform: translateY(0);
 }
 
@@ -2525,7 +2525,7 @@ section+section {
    ======================================================================= */
 
 /* Default portrait: 3:4 */
-.lv-electric-panel-project .lv-epp-media {
+.airbreakswitches-project .airbreakswitches-card-media {
   aspect-ratio: 10/11;
   /* vertical rectangle */
   max-height: 360px;
@@ -2533,7 +2533,7 @@ section+section {
   overflow: hidden;
 }
 
-.lv-electric-panel-project .lv-epp-media img {
+.airbreakswitches-project .airbreakswitches-card-media img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -2547,24 +2547,24 @@ section+section {
 
 /* Slightly taller cap on very wide screens */
 @media (min-width: 1200px) {
-  .lv-electric-panel-project .lv-epp-media {
+  .airbreakswitches-project .airbreakswitches-card-media {
     max-height: 640px;
   }
 }
 
 /* Optional: add class "is-23" on a card to use a 2:3 portrait */
-.lv-electric-panel-project .lv-epp-card.is-23 .lv-epp-media {
+.airbreakswitches-project .airbreakswitches-card-card.is-23 .airbreakswitches-card-media {
   aspect-ratio: 2 / 3;
 }
 
 /* Keep the year pill positioned nicely on taller images */
-.lv-electric-panel-project .lv-epp-year {
+.airbreakswitches-project .airbreakswitches-card-year {
   inset: 12px auto auto 12px;
 }
 
 
 /* Container for the entire section */
-.-gemini-mission-section {
+.airbreakswitches-about-mission-section {
   font-family: Arial, sans-serif;
   max-width: 1100px;
   margin: 0 auto;
@@ -2572,7 +2572,7 @@ section+section {
 }
 
 /* Tab buttons container */
-.-gemini-tabs-container {
+.airbreakswitches-about-tabs-container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -2584,7 +2584,7 @@ section+section {
 }
 
 /* Individual tab button styling */
-.-gemini-tab {
+.airbreakswitches-about-tab {
   background-color: transparent;
   border: none;
   padding: 12px 24px;
@@ -2598,20 +2598,20 @@ section+section {
 }
 
 /* Active (selected) tab state */
-.-gemini-tab.active {
+.airbreakswitches-about-tab.active {
   background-color: #e0e0e0;
   color: #000;
   font-weight: bold;
 }
 
 /* Main content wrapper */
-.-gemini-content-wrapper {
+.airbreakswitches-about-content-wrapper {
   overflow: hidden;
   position: relative;
 }
 
 /* Individual content blocks (hidden by default) */
-.-gemini-content {
+.airbreakswitches-about-content {
   display: none;
   opacity: 0;
   transform: translateY(10px);
@@ -2619,7 +2619,7 @@ section+section {
 }
 
 /* Active content block (visible) */
-.-gemini-content.active {
+.airbreakswitches-about-content.active {
   display: flex;
   flex-direction: column;
   /* Default for smaller screens */
@@ -2630,7 +2630,7 @@ section+section {
 
 /* Layout for wider screens */
 @media (min-width: 768px) {
-  .-gemini-content.active {
+  .airbreakswitches-about-content.active {
     flex-direction: row;
     /* Side-by-side on desktop */
   }
@@ -2640,27 +2640,27 @@ section+section {
 @media (max-width: 640px) {
 
   /* Project cards section */
-  .lv-electric-panel-project {
+  .airbreakswitches-project {
     padding-left: 0;
     padding-right: 0;
   }
 
-  .lv-epp-container {
+  .airbreakswitches-card-container {
     max-width: none;
     margin: 0;
     padding: 0 12px;       /* small, even side padding */
   }
 
-  .lv-epp-grid {
+  .airbreakswitches-card-grid {
     grid-template-columns: 1fr;  /* single full-width column */
   }
 
-  .lv-epp-card {
+  .airbreakswitches-card-card {
     width: 100%;
   }
 
   /* Tabs section wrapper */
-  .-gemini-mission-section {
+  .airbreakswitches-about-mission-section {
     max-width: none;
     margin: 0;
     padding: 0 12px 20px;
@@ -2669,25 +2669,25 @@ section+section {
 
 
 /* Text and image containers */
-.-gemini-text-content,
-.-gemini-image-content {
+.airbreakswitches-about-text-content,
+.airbreakswitches-about-image-content {
   flex: 1;
 }
 
-.-gemini-text-content h2 {
+.airbreakswitches-about-text-content h2 {
   font-size: 48px;
   color: #0d2847;
   margin-bottom: 20px;
 }
 
-.-gemini-text-content p {
+.airbreakswitches-about-text-content p {
   font-size: 18px;
   line-height: 1.6;
   color: #555;
   color: var(--muted-meet-ieng-about);
 }
 
-.-gemini-image-content img {
+.airbreakswitches-about-image-content img {
   width: 100%;
   height: auto;
   display: block;
@@ -2695,7 +2695,7 @@ section+section {
 }
 
 /* Individual content blocks (hidden by default) */
-.-gemini-content {
+.airbreakswitches-about-content {
   display: none;
   opacity: 0;
   transform: translateY(10px);
@@ -2705,7 +2705,7 @@ section+section {
 }
 
 /* Active content block (visible) */
-.-gemini-content.active {
+.airbreakswitches-about-content.active {
   display: flex;
   flex-direction: column;
   /* Default for smaller screens */
@@ -2716,19 +2716,19 @@ section+section {
 
 /* Layout for wider screens */
 @media (min-width: 768px) {
-  .-gemini-content.active {
+  .airbreakswitches-about-content.active {
     flex-direction: row;
     /* Side-by-side on desktop */
   }
 }
 
 /* Text and image containers */
-.-gemini-text-content {
+.airbreakswitches-about-text-content {
   flex: 1;
   /* Allow text content to take available space */
 }
 
-.-gemini-image-content {
+.airbreakswitches-about-image-content {
   flex: 1;
   /* Allow image content to take available space */
   display: flex;
@@ -2742,19 +2742,19 @@ section+section {
 }
 
 
-.-gemini-text-content h2 {
+.airbreakswitches-about-text-content h2 {
   font-size: 48px;
   color: #0d2847;
   margin-bottom: 20px;
 }
 
-.-gemini-text-content p {
+.airbreakswitches-about-text-content p {
   font-size: 18px;
   line-height: 1.6;
   color: #555;
 }
 
-.-gemini-image-content img {
+.airbreakswitches-about-image-content img {
   /* --- MODIFIED SECTION --- */
   width: 100%;
   /* Keep it responsive within its constrained size */
@@ -2774,12 +2774,12 @@ section+section {
 /* solutions  */
 
 /* ================== SOLUTIONS ================== */
-.section-solutions-solar-system-solution {
+.section-solutions-airbreakswitches-solution {
   background: var(--bg-solar);
   padding: clamp(18px, 1vw, 20px) 0;
 }
 
-.solutions-head-solar-system-solution {
+.solutions-head-airbreakswitches-solution {
   display: grid;
   grid-template-columns: 2fr auto;
   gap: 14px;
@@ -2787,21 +2787,21 @@ section+section {
   margin-bottom: clamp(18px, 1vw, 20px);
 }
 
-.solutions-kicker-solar-system-solution {
+.solutions-kicker-airbreakswitches-solution {
   color: var(--teal-700-solar);
   font-weight: 800;
   letter-spacing: .4px;
   margin: 0 0 6px;
 }
 
-.solutions-title-solar-system-solution {
+.solutions-title-airbreakswitches-solution {
   margin: 0;
   color: var(--ink-solar);
   font-weight: 800;
   font-size: clamp(22px, 3.6vw, 34px);
 }
 
-.solutions-viewall-btn-solar-system-solution {
+.solutions-viewall-btn-airbreakswitches-solution {
   justify-self: end;
   padding: 10px 14px;
   font-weight: 600;
@@ -2813,33 +2813,37 @@ section+section {
   transition: background .2s ease, color .2s ease, transform .2s ease;
 }
 
-.solutions-viewall-btn-solar-system-solution:hover {
+.solutions-viewall-btn-airbreakswitches-solution:hover {
   background: var(--teal-700-solar);
   color: #fff;
   transform: translateY(-1px);
 }
 
 /* collapse control for the grid (keeps your class names) */
-.is-collapsed-solar-system-solution .extra-card-solar-system-solution {
+.is-collapsed-airbreakswitches-solution .extra-card-airbreakswitches-solution {
   display: none;
 }
 
 /* small spacing for the intro under the headline */
-.solutions-intro-solar-system-solution {
+.solutions-intro-airbreakswitches-solution {
   margin-top: 0.75rem;
   display: grid;
   gap: .75rem;
 }
+.solutions-intro-airbreakswitches-solution p {
+color:  #6b7a8c;
+}
 
 /* tidy bullets inside cards */
-.card-points-solar-system-solution {
+.card-points-airbreakswitches-solution {
   margin: .5rem 0 0 1.1rem;
   padding: 0;
   line-height: 1.5;
+  color:  #6b7a8c;
 }
 
 /* highlights (after the 8 points) */
-.lv-highlights-solar-system-solution {
+.lv-highlights-airbreakswitches-solution {
   margin-top: 2rem;
   border: 1px solid rgba(0, 0, 0, .08);
   border-radius: 12px;
@@ -2847,7 +2851,7 @@ section+section {
   background: #fff;
 }
 
-.lv-highlights-solar-system-solution h3 {
+.lv-highlights-airbreakswitches-solution h3 {
   margin: 0 0 .5rem 0;
 }
 
@@ -2872,19 +2876,19 @@ section+section {
 }
 
 /* Grid */
-.grid-solutions-solar-system-solution {
+.grid-solutions-airbreakswitches-solution {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
   gap: clamp(14px, 3vw, 24px);
 }
 
 /* Show only first row by default (3 cards) */
-.grid-solutions-solar-system-solution.is-collapsed-solar-system-solution .extra-card-solar-system-solution {
+.grid-solutions-airbreakswitches-solution.is-collapsed-airbreakswitches-solution .extra-card-airbreakswitches-solution {
   display: none;
 }
 
 /* Card */
-.card-solar-system-solution {
+.card-airbreakswitches-solution {
   background: #fff;
   border: 1px solid rgba(21, 94, 117, .18);
   /* cyan-ish border, very light */
@@ -2897,13 +2901,13 @@ section+section {
   transition: border-color .2s ease, transform .2s ease, box-shadow .2s ease;
 }
 
-.card-solar-system-solution:hover {
+.card-airbreakswitches-solution:hover {
   border-color: var(--teal-700-solar);
   transform: translateY(-3px);
   box-shadow: 0 16px 36px rgba(0, 0, 0, .08);
 }
 
-.card-icon-solar-system-solution {
+.card-icon-airbreakswitches-solution {
   width: 42px;
   height: 42px;
   border-radius: 10px;
@@ -2916,19 +2920,19 @@ section+section {
   box-shadow: 0 10px 22px rgba(15, 118, 110, .25);
 }
 
-.card-icon-solar-system-solution i {
+.card-icon-airbreakswitches-solution i {
   font-size: 22px;
   line-height: 1;
 }
 
-.card-title-solar-system-solution {
+.card-title-airbreakswitches-solution {
   margin: 0 0 6px;
   font-size: clamp(16px, 2.2vw, 18px);
   font-weight: 800;
   color: var(--ink-solar);
 }
 
-.card-text-solar-system-solution {
+.card-text-airbreakswitches-solution {
   margin: 0 0 12px;
   color: var(--muted-solar);
   line-height: 1.65;
@@ -2936,7 +2940,7 @@ section+section {
 }
 
 /* Link CTA pinned to bottom */
-.card-link-solar-system-solution {
+.card-link-airbreakswitches-solution {
   margin-top: auto;
   align-self: flex-start;
   display: inline-flex;
@@ -2951,17 +2955,17 @@ section+section {
   transition: background .2s ease, color .2s ease, transform .2s ease;
 }
 
-.card-link-solar-system-solution:hover {
+.card-link-airbreakswitches-solution:hover {
   background: var(--cyan-800-solar);
   color: #fff;
   transform: translateY(-1px);
 }
 
 /* Reveal directions (slow) */
-.reveal-left-solar-system-solution,
-.reveal-right-solar-system-solution,
-.reveal-top-solar-system-solution,
-.reveal-bottom-solar-system-solution {
+.reveal-left-airbreakswitches-solution,
+.reveal-right-airbreakswitches-solution,
+.reveal-top-airbreakswitches-solution,
+.reveal-bottom-airbreakswitches-solution {
   opacity: 0;
   transform: translate3d(0, 0, 0);
   transition: opacity 1.05s cubic-bezier(.2, .65, .2, 1),
@@ -2969,26 +2973,26 @@ section+section {
   will-change: opacity, transform;
 }
 
-.reveal-left-solar-system-solution {
+.reveal-left-airbreakswitches-solution {
   transform: translateX(-26px);
 }
 
-.reveal-right-solar-system-solution {
+.reveal-right-airbreakswitches-solution {
   transform: translateX(26px);
 }
 
-.reveal-top-solar-system-solution {
+.reveal-top-airbreakswitches-solution {
   transform: translateY(-26px);
 }
 
-.reveal-bottom-solar-system-solution {
+.reveal-bottom-airbreakswitches-solution {
   transform: translateY(26px);
 }
 
-.in-view-solar-system.reveal-left-solar-system-solution,
-.in-view-solar-system.reveal-right-solar-system-solution,
-.in-view-solar-system.reveal-top-solar-system-solution,
-.in-view-solar-system.reveal-bottom-solar-system-solution {
+.in-view-airbreakswitches.reveal-left-airbreakswitches-solution,
+.in-view-airbreakswitches.reveal-right-airbreakswitches-solution,
+.in-view-airbreakswitches.reveal-top-airbreakswitches-solution,
+.in-view-airbreakswitches.reveal-bottom-airbreakswitches-solution {
   opacity: 1;
   transform: none;
 }
@@ -2996,10 +3000,10 @@ section+section {
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
 
-  .reveal-left-solar-system-solution,
-  .reveal-right-solar-system-solution,
-  .reveal-top-solar-system-solution,
-  .reveal-bottom-solar-system-solution {
+  .reveal-left-airbreakswitches-solution,
+  .reveal-right-airbreakswitches-solution,
+  .reveal-top-airbreakswitches-solution,
+  .reveal-bottom-airbreakswitches-solution {
     opacity: 1 !important;
     transform: none !important;
     transition: none !important;
@@ -3008,34 +3012,34 @@ section+section {
 
 /* Responsive */
 @media (max-width: 1024px) {
-  .grid-solutions-solar-system-solution {
+  .grid-solutions-airbreakswitches-solution {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .solutions-head-solar-system-solution {
+  .solutions-head-airbreakswitches-solution {
     grid-template-columns: 1fr;
     align-items: start;
   }
 
-  .solutions-viewall-btn-solar-system-solution {
+  .solutions-viewall-btn-airbreakswitches-solution {
     justify-self: start;
   }
 }
 
 @media (max-width: 560px) {
-  .grid-solutions-solar-system-solution {
+  .grid-solutions-airbreakswitches-solution {
     grid-template-columns: 1fr;
   }
 }
 
 /* Container for the entire section */
-.-gemini-mission-section {
+.airbreakswitches-about-mission-section {
   max-width: 1100px;
   margin: 0 auto;
 }
 
 /* Tab buttons container */
-.-gemini-tabs-container {
+.airbreakswitches-about-tabs-container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -3045,7 +3049,7 @@ section+section {
 }
 
 /* Individual tab button styling */
-.-gemini-tab {
+.airbreakswitches-about-tab {
   background-color: transparent;
   border: none;
   padding: 12px 24px;
@@ -3059,20 +3063,20 @@ section+section {
 }
 
 /* Active (selected) tab state */
-.-gemini-tab.active {
+.airbreakswitches-about-tab.active {
   background-color: #e0e0e0;
   color: #000;
   font-weight: 600;
 }
 
 /* Main content wrapper */
-.-gemini-content-wrapper {
+.airbreakswitches-about-content-wrapper {
   overflow: hidden;
   position: relative;
 }
 
 /* Content blocks (default hidden) */
-.-gemini-content {
+.airbreakswitches-about-content {
   display: none;
   opacity: 0;
   transform: translateY(10px);
@@ -3081,7 +3085,7 @@ section+section {
 }
 
 /* Active content block (visible) */
-.-gemini-content.active {
+.airbreakswitches-about-content.active {
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -3090,40 +3094,40 @@ section+section {
 }
 
 @media (min-width: 768px) {
-  .-gemini-content.active {
+  .airbreakswitches-about-content.active {
     flex-direction: row;
   }
 }
 
 /* Text + image columns */
-.-gemini-text-content,
-.-gemini-image-content {
+.airbreakswitches-about-text-content,
+.airbreakswitches-about-image-content {
   flex: 1;
 }
 
 /* Headings in this section – keep same style as about section title style */
-.-gemini-text-content h2 {
+.airbreakswitches-about-text-content h2 {
   font-size: 48px;
   color: #0d2847;
   margin-bottom: 20px;
 }
 
 /* UPDATED: paragraph style to match "about us" paragraph */
-.-gemini-text-content p {
+.airbreakswitches-about-text-content p {
   font: 400 15px/1.7 ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   color: #6a7a89;
   margin: 0;
 }
 
 /* Image block */
-.-gemini-image-content {
+.airbreakswitches-about-image-content {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
 }
 
-.-gemini-image-content img {
+.airbreakswitches-about-image-content img {
   width: 100%;
   max-width: 480px;
   height: auto;
@@ -3131,18 +3135,18 @@ section+section {
 }
 
 /* show only 2 cards when collapsed */
-#solutions-grid-solar-system-solution.is-collapsed-solar-system-solution .card-solar-system-solution:nth-of-type(3) {
+#solutions-grid-airbreakswitches-solution.is-collapsed-airbreakswitches-solution .card-airbreakswitches-solution:nth-of-type(3) {
   display: none;
 }
 
 /* center the "View LV Switchboards" button */
-.solutions-viewall-btn-solar-system-solution {
+.solutions-viewall-btn-airbreakswitches-solution {
   justify-self: center;
   margin-top: 1.25rem;
 }
 
 /* make list items real bullets inside cards */
-.card-points-solar-system-solution {
+.card-points-airbreakswitches-solution {
   list-style: disc;
   padding-left: 1.3rem;
 }
@@ -3151,7 +3155,7 @@ section+section {
 
 
 
-.container-lv-electrical-process {
+.container-airbreakswitches-process {
   width: 100%;
   max-width: 1100px;
   margin-inline: auto;
@@ -3161,36 +3165,36 @@ section+section {
 /* === MOBILE LAYOUT: stack image + copy on top, timeline below === */
 @media (max-width: 768px) {
   /* one column stack */
-  .grid-lv-electrical-process {
+  .grid-airbreakswitches-process {
     grid-template-columns: 1fr;
   }
 
   /* add a bit of space between image block and timeline */
-  .timeline-lv-electrical-process {
+  .timeline-airbreakswitches-process {
     margin-top: 24px;
   }
 
   /* keep timeline aligned nicely on small screens */
-  .timeline-list-lv-electrical-process::before {
+  .timeline-list-airbreakswitches-process::before {
     left: 28px;
   }
 
-  .timeline-item-lv-electrical-process {
+  .timeline-item-airbreakswitches-process {
     grid-template-columns: 44px 1fr;
   }
 }
 /* === MOBILE PADDING FIX (20px all around) === */
 @media (max-width: 768px) {
-  .section-process-lv-electrical-process {
+  .section-process-airbreakswitches-process {
     padding: 20px !important;
   }
 
-  .container-lv-electrical-process {
+  .container-airbreakswitches-process {
     padding: 20px !important;
   }
 
-  .intro-lv-electrical-process,
-  .timeline-lv-electrical-process {
+  .intro-airbreakswitches-process,
+  .timeline-airbreakswitches-process {
     padding: 0 0; /* keep inner spacing controlled */
   }
 }
@@ -3198,35 +3202,35 @@ section+section {
 @media (max-width: 640px) {
 
   /* Let the section span full width on phones */
-  .lv-electric-panel-project {
+  .airbreakswitches-project {
     padding-left: 0;
     padding-right: 0;
   }
 
   /* Container fills the viewport with small, even padding */
-  .lv-epp-container {
+  .airbreakswitches-card-container {
     max-width: none;
     margin: 0;
     padding-inline: 12px;  /* equal left/right gutter */
   }
 
   /* One card per row, full width */
-  .lv-epp-grid {
+  .airbreakswitches-card-grid {
     grid-template-columns: 1fr;
     justify-items: stretch;
   }
 
-  .lv-epp-card {
+  .airbreakswitches-card-card {
     width: 100%;
     margin-inline: 0;      /* no extra space on the right */
   }
 
   /* Make sure the media fills the card width with no inner gap */
-  .lv-epp-media {
+  .airbreakswitches-card-media {
     width: 100%;
   }
 
-  .lv-epp-media img {
+  .airbreakswitches-card-media img {
     width: 100%;
     height: 100%;
     object-fit: cover;
